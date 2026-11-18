@@ -1,0 +1,136 @@
+{
+  "within_site": {
+    "note": "9 points, only 2 distinct phi values -> reported as a 2-group contrast, not a 9-point regression.",
+    "AUROC_contrast": {
+      "low_phi_CIP_mean": -0.010227952401865395,
+      "n_low": 3,
+      "high_phi_ESBL_mean": 0.02313341300761379,
+      "n_high": 6,
+      "diff": 0.033361365409479184,
+      "mannwhitney_u": 18.0,
+      "mannwhitney_p_one_sided": 0.011904761904761904,
+      "n_distinct_phi_within": 2
+    },
+    "MCC_contrast": {
+      "low_phi_CIP_mean": -0.04666532085054755,
+      "n_low": 3,
+      "high_phi_ESBL_mean": 0.05990430357730784,
+      "n_high": 6,
+      "diff": 0.10656962442785539,
+      "mannwhitney_u": 17.0,
+      "mannwhitney_p_one_sided": 0.023809523809523808,
+      "n_distinct_phi_within": 2
+    }
+  },
+  "cross_site": {
+    "note": "60 evaluations (20 pairs x 3 drugs); phi varies 0.31-1.00. Mixed-effects slope on phi is the dependence-aware test.",
+    "phi_range": [
+      0.34415146017527803,
+      1.0
+    ],
+    "AUROC": {
+      "naive": {
+        "spearman_rho": 0.17407731606973303,
+        "spearman_p": 0.18344772309801027,
+        "ols_slope": 0.005676256046838265,
+        "ols_slope_ci95": [
+          -0.021617612492504663,
+          0.03297012458618119
+        ],
+        "n": 60
+      },
+      "mixed": {
+        "primary_test_site_RE": {
+          "slope": 0.001286616888892121,
+          "se": 0.013822692844923355,
+          "ci95": [
+            -0.025805861087157655,
+            0.028379094864941896
+          ],
+          "p": 0.9258399694164767,
+          "converged": true,
+          "groups": "test",
+          "n_groups": 5
+        },
+        "sensitivity": {
+          "train": {
+            "slope": 0.004125025181254667,
+            "se": 0.013774772987441394,
+            "ci95": [
+              -0.022873529874130466,
+              0.031123580236639796
+            ],
+            "p": 0.7645873342233865,
+            "converged": true,
+            "groups": "train",
+            "n_groups": 5
+          },
+          "drug": {
+            "slope": 0.01272813740147859,
+            "se": 0.02391788593930989,
+            "ci95": [
+              -0.034150919039568794,
+              0.05960719384252597
+            ],
+            "p": 0.5946153227030356,
+            "converged": true,
+            "groups": "drug",
+            "n_groups": 3
+          }
+        }
+      }
+    },
+    "MCC": {
+      "naive": {
+        "spearman_rho": 0.032781162097629976,
+        "spearman_p": 0.8036337839913119,
+        "ols_slope": -0.007782176961758258,
+        "ols_slope_ci95": [
+          -0.09664319561786829,
+          0.08107884169435177
+        ],
+        "n": 60
+      },
+      "mixed": {
+        "primary_test_site_RE": {
+          "slope": -0.024930391545619983,
+          "se": 0.050058707759263056,
+          "ci95": [
+            -0.12304545875377557,
+            0.07318467566253561
+          ],
+          "p": 0.6184677785664116,
+          "converged": true,
+          "groups": "test",
+          "n_groups": 5
+        },
+        "sensitivity": {
+          "train": {
+            "slope": -0.0069975638140312635,
+            "se": 0.045140847201160864,
+            "ci95": [
+              -0.09547362432830654,
+              0.08147849670024403
+            ],
+            "p": 0.8768085246942615,
+            "converged": true,
+            "groups": "train",
+            "n_groups": 5
+          },
+          "drug": {
+            "slope": 0.024351645599487274,
+            "se": 0.07827085988445168,
+            "ci95": [
+              -0.12905923977403802,
+              0.17776253097301256
+            ],
+            "p": 0.755709245125472,
+            "converged": true,
+            "groups": "drug",
+            "n_groups": 3
+          }
+        }
+      }
+    }
+  }
+}

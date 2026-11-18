@@ -1,0 +1,18 @@
+_base: base.yaml
+dataset_name: s_orsola
+data_path: ${SORSOLA_ROOT}/data_bin_3.csv
+spectra_dir: ${SORSOLA_ROOT}/spectra/
+metadata_path: ${SORSOLA_ROOT}/metadata.txt
+output_dir: results/s_orsola
+
+targets:
+  - Ciprofloxacina
+  - Cefotaxime
+  - Ceftazidime
+
+target_short_names:
+  Ciprofloxacina: CIP
+  Cefotaxime: CTX
+  Ceftazidime: CAZ
+
+species: Escherichia coli

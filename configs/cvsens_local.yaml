@@ -1,0 +1,23 @@
+_base: base.yaml
+dataset_name: local
+data_path: ${SORSOLA_ROOT}/data_bin_3.csv
+spectra_dir: ${SORSOLA_ROOT}/spectra/
+metadata_path: ${SORSOLA_ROOT}/metadata.txt
+output_dir: results/cvsens
+
+# Sensitivity analysis: train downstream chain links on OUT-OF-FOLD upstream
+# predictions (sklearn cross_val_predict, 5 folds) instead of true labels, to
+# check the chain benefit is not an artifact of teacher-forced upstream labels.
+chain_cv: 5
+
+targets:
+  - Ciprofloxacina
+  - Cefotaxime
+  - Ceftazidime
+
+target_short_names:
+  Ciprofloxacina: CIP
+  Cefotaxime: CTX
+  Ceftazidime: CAZ
+
+species: Escherichia coli

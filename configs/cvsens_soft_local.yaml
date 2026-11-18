@@ -1,0 +1,24 @@
+_base: base.yaml
+dataset_name: local
+data_path: ${SORSOLA_ROOT}/data_bin_3.csv
+spectra_dir: ${SORSOLA_ROOT}/spectra/
+metadata_path: ${SORSOLA_ROOT}/metadata.txt
+output_dir: results/cvsens_soft
+
+# Soft classifier chain, trained coherently: downstream links are trained on OUT-OF-FOLD upstream predicted
+# PROBABILITIES (sklearn ClassifierChain cv=5, chain_method=predict_proba) and receive upstream probabilities at
+# prediction time, so there is no train/test mismatch in the upstream input.
+chain_cv: 5
+chain_method: predict_proba
+
+targets:
+  - Ciprofloxacina
+  - Cefotaxime
+  - Ceftazidime
+
+target_short_names:
+  Ciprofloxacina: CIP
+  Cefotaxime: CTX
+  Ceftazidime: CAZ
+
+species: Escherichia coli

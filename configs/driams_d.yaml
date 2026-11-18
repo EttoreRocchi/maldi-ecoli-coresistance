@@ -1,0 +1,20 @@
+_base: base.yaml
+dataset_name: driams_d
+binned_dir: ${DRIAMS_ROOT}/DRIAMS-D/binned_6000/2018
+metadata_path: ${DRIAMS_ROOT}/DRIAMS-D/id/2018/2018_clean.csv
+output_dir: results/driams_d
+
+driams_years:
+  - "2018"
+
+targets:
+  - Ciprofloxacin
+  - Ceftriaxone
+  - Ceftazidime
+
+target_short_names:
+  Ciprofloxacin: CIP
+  Ceftriaxone: CRO
+  Ceftazidime: CAZ
+
+species: Escherichia coli

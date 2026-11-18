@@ -1,0 +1,17 @@
+# TabPFN analyses ran in a separate environment (Python 3.10, CUDA build of PyTorch, numpy 1.x).
+# Install the CUDA build of torch that matches your driver first (https://pytorch.org), then:
+#   pip install -r requirements/lock-tabpfn.txt && pip install -e . --no-deps
+# and set TABPFN_MODEL_PATH to the TabPFN v2.5 default classifier checkpoint (tabpfn-v2.5-classifier-v2.5_default.ckpt).
+tabpfn==6.3.0
+torch==2.14.1
+numpy==1.26.4
+scikit-learn==1.7.2
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.14.5
+matplotlib==3.10.7
+seaborn==0.13.2
+PyYAML==6.0.3
+joblib==1.5.2
+tqdm==4.67.1
+MaldiAMRKit==0.7.0

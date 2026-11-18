@@ -1,0 +1,418 @@
+{
+ "levels": [
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 0.01,
+   "cip_auroc": 0.6281936758893281,
+   "downstream_dAUROC": -0.08983885438233262,
+   "dAUROC_ci": [
+    -0.12596961885927793,
+    -0.05447758248104536
+   ],
+   "dAUROC_p": 0.0003662109375,
+   "downstream_dMCC": -0.19329867496277728
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 0.02,
+   "cip_auroc": 0.6878439048873832,
+   "downstream_dAUROC": -0.05887594096724531,
+   "dAUROC_ci": [
+    -0.08589274767873509,
+    -0.03237558731714536
+   ],
+   "dAUROC_p": 0.0013427734375,
+   "downstream_dMCC": -0.12485502024816605
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 0.05,
+   "cip_auroc": 0.7191353911788696,
+   "downstream_dAUROC": -0.042322211604820296,
+   "dAUROC_ci": [
+    -0.06937330291844719,
+    -0.01648263959122302
+   ],
+   "dAUROC_p": 0.0096435546875,
+   "downstream_dMCC": -0.08819952129343742
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 0.1,
+   "cip_auroc": 0.7638286592634419,
+   "downstream_dAUROC": -0.0264020226150661,
+   "dAUROC_ci": [
+    -0.05451628990413463,
+    6.272989539133236e-05
+   ],
+   "dAUROC_p": 0.0877685546875,
+   "downstream_dMCC": -0.042552009151829835
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 0.25,
+   "cip_auroc": 0.8238468536294623,
+   "downstream_dAUROC": -0.008516053511705686,
+   "dAUROC_ci": [
+    -0.03358996941734714,
+    0.01714196320271914
+   ],
+   "dAUROC_p": 0.53192138671875,
+   "downstream_dMCC": -0.0027294335476421294
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 0.5,
+   "cip_auroc": 0.842548152330761,
+   "downstream_dAUROC": 0.002469761639326862,
+   "dAUROC_ci": [
+    -0.026643517539270252,
+    0.027607297143315265
+   ],
+   "dAUROC_p": 0.8665771484375,
+   "downstream_dMCC": 0.01535311652795594
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "hard",
+   "fraction": 1.0,
+   "cip_auroc": 0.8542973210364515,
+   "downstream_dAUROC": 0.002692599670860544,
+   "dAUROC_ci": [
+    -0.024784464249779994,
+    0.027819159101767823
+   ],
+   "dAUROC_p": 0.84930419921875,
+   "downstream_dMCC": 0.025023587849307482
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 0.01,
+   "cip_auroc": 0.6281936758893281,
+   "downstream_dAUROC": -0.08946355045920264,
+   "dAUROC_ci": [
+    -0.11620318139664296,
+    -0.062225887334396615
+   ],
+   "dAUROC_p": 6.103515625e-05,
+   "downstream_dMCC": -0.1535088972851768
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 0.02,
+   "cip_auroc": 0.6878439048873832,
+   "downstream_dAUROC": -0.05282327334501243,
+   "dAUROC_ci": [
+    -0.07545205858456906,
+    -0.028972535364726888
+   ],
+   "dAUROC_p": 0.00140380859375,
+   "downstream_dMCC": -0.09070530490506937
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 0.05,
+   "cip_auroc": 0.7191353911788696,
+   "downstream_dAUROC": -0.03333170356213836,
+   "dAUROC_ci": [
+    -0.056700072569798,
+    -0.0070159700044602315
+   ],
+   "dAUROC_p": 0.02581787109375,
+   "downstream_dMCC": -0.07002791060809081
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 0.1,
+   "cip_auroc": 0.7638286592634419,
+   "downstream_dAUROC": -0.014120921590486819,
+   "dAUROC_ci": [
+    -0.038674643758413355,
+    0.011249180722597786
+   ],
+   "dAUROC_p": 0.2979736328125,
+   "downstream_dMCC": -0.04224937894875307
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 0.25,
+   "cip_auroc": 0.8238468536294623,
+   "downstream_dAUROC": 0.006163077984817115,
+   "dAUROC_ci": [
+    -0.01616796891851653,
+    0.02752762577823861
+   ],
+   "dAUROC_p": 0.61627197265625,
+   "downstream_dMCC": -0.01451992531406504
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 0.5,
+   "cip_auroc": 0.842548152330761,
+   "downstream_dAUROC": 0.016035334713595573,
+   "dAUROC_ci": [
+    -0.006900458708943103,
+    0.03713868699293555
+   ],
+   "dAUROC_p": 0.18603515625,
+   "downstream_dMCC": 0.010197403573465534
+  },
+  {
+   "ordering": "CIP>CAZ>CTX",
+   "downstream": "CAZ",
+   "passing": "proba",
+   "fraction": 1.0,
+   "cip_auroc": 0.8542973210364515,
+   "downstream_dAUROC": 0.0198452513669905,
+   "dAUROC_ci": [
+    -0.005000375766744671,
+    0.04211625508371535
+   ],
+   "dAUROC_p": 0.13250732421875,
+   "downstream_dMCC": 0.0011664163136999286
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 0.01,
+   "cip_auroc": 0.6281936758893281,
+   "downstream_dAUROC": -0.0348342245989305,
+   "dAUROC_ci": [
+    -0.07301100340983364,
+    -0.010666507529553412
+   ],
+   "dAUROC_p": 0.03021240234375,
+   "downstream_dMCC": -0.041254076265035966
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 0.02,
+   "cip_auroc": 0.6878439048873832,
+   "downstream_dAUROC": -0.004359286138697878,
+   "dAUROC_ci": [
+    -0.04427291005759709,
+    0.022774909781388904
+   ],
+   "dAUROC_p": 0.803466796875,
+   "downstream_dMCC": 0.018158692020600522
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 0.05,
+   "cip_auroc": 0.7191353911788696,
+   "downstream_dAUROC": 0.009777480689245407,
+   "dAUROC_ci": [
+    -0.028545947462860443,
+    0.0424371487843131
+   ],
+   "dAUROC_p": 0.6002197265625,
+   "downstream_dMCC": 0.04719220360077685
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 0.1,
+   "cip_auroc": 0.7638286592634419,
+   "downstream_dAUROC": 0.021177128427128444,
+   "dAUROC_ci": [
+    -0.006335041190627477,
+    0.04420813884116326
+   ],
+   "dAUROC_p": 0.13458251953125,
+   "downstream_dMCC": 0.08313888930686018
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 0.25,
+   "cip_auroc": 0.8238468536294623,
+   "downstream_dAUROC": 0.03363753076988374,
+   "dAUROC_ci": [
+    -0.002838742943171111,
+    0.06341244589456686
+   ],
+   "dAUROC_p": 0.07537841796875,
+   "downstream_dMCC": 0.12641600574859435
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 0.5,
+   "cip_auroc": 0.842548152330761,
+   "downstream_dAUROC": 0.04301585179526353,
+   "dAUROC_ci": [
+    0.00552694995616958,
+    0.0736482251713806
+   ],
+   "dAUROC_p": 0.03448486328125,
+   "downstream_dMCC": 0.1385993691007411
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "hard",
+   "fraction": 1.0,
+   "cip_auroc": 0.8542973210364515,
+   "downstream_dAUROC": 0.034212503183091415,
+   "dAUROC_ci": [
+    -0.005783301199644259,
+    0.06591604917333878
+   ],
+   "dAUROC_p": 0.09014892578125,
+   "downstream_dMCC": 0.13704557512967844
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 0.01,
+   "cip_auroc": 0.6281936758893281,
+   "downstream_dAUROC": -0.027745968084203362,
+   "dAUROC_ci": [
+    -0.06112117170869101,
+    -0.0031671200104018238
+   ],
+   "dAUROC_p": 0.07965087890625,
+   "downstream_dMCC": -0.021727235163725635
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 0.02,
+   "cip_auroc": 0.6878439048873832,
+   "downstream_dAUROC": 0.0022272090654443504,
+   "dAUROC_ci": [
+    -0.030335565028410123,
+    0.02760398503602836
+   ],
+   "dAUROC_p": 0.8839111328125,
+   "downstream_dMCC": 0.04976214370347352
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 0.05,
+   "cip_auroc": 0.7191353911788696,
+   "downstream_dAUROC": 0.01505591630591631,
+   "dAUROC_ci": [
+    -0.018820285165066838,
+    0.04655878373469471
+   ],
+   "dAUROC_p": 0.39068603515625,
+   "downstream_dMCC": 0.05708168221379731
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 0.1,
+   "cip_auroc": 0.7638286592634419,
+   "downstream_dAUROC": 0.03132732790085731,
+   "dAUROC_ci": [
+    0.001260988253710743,
+    0.05570613949869794
+   ],
+   "dAUROC_p": 0.0478515625,
+   "downstream_dMCC": 0.08682181914913857
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 0.25,
+   "cip_auroc": 0.8238468536294623,
+   "downstream_dAUROC": 0.04812170019522961,
+   "dAUROC_ci": [
+    0.013216886954038188,
+    0.07652549987569643
+   ],
+   "dAUROC_p": 0.01483154296875,
+   "downstream_dMCC": 0.11897398677274103
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 0.5,
+   "cip_auroc": 0.842548152330761,
+   "downstream_dAUROC": 0.05989954163483576,
+   "dAUROC_ci": [
+    0.022431627101526713,
+    0.0924171958307301
+   ],
+   "dAUROC_p": 0.0078125,
+   "downstream_dMCC": 0.11542136464490846
+  },
+  {
+   "ordering": "CIP>CTX>CAZ",
+   "downstream": "CTX",
+   "passing": "proba",
+   "fraction": 1.0,
+   "cip_auroc": 0.8542973210364515,
+   "downstream_dAUROC": 0.06215463458110515,
+   "dAUROC_ci": [
+    0.023298550682053686,
+    0.0958101051895151
+   ],
+   "dAUROC_p": 0.00732421875,
+   "downstream_dMCC": 0.10815349776646692
+  }
+ ],
+ "spearman": {
+  "CIP>CTX>CAZ|hard": {
+   "rho": 0.9642857142857145,
+   "p": 0.0004541491691941689,
+   "n_levels": 7
+  },
+  "CIP>CTX>CAZ|proba": {
+   "rho": 1.0,
+   "p": 0.0,
+   "n_levels": 7
+  },
+  "CIP>CAZ>CTX|hard": {
+   "rho": 1.0,
+   "p": 0.0,
+   "n_levels": 7
+  },
+  "CIP>CAZ>CTX|proba": {
+   "rho": 1.0,
+   "p": 0.0,
+   "n_levels": 7
+  }
+ }
+}

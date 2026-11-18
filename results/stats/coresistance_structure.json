@@ -1,0 +1,4897 @@
+{
+ "notes": {
+  "s_orsola_raw_values_analysed_isolates": {
+   "Ciprofloxacina": {
+    "S": 115,
+    "R": 72
+   },
+   "Cefotaxime": {
+    "S": 108,
+    "R": 79
+   },
+   "Ceftazidime": {
+    "S": 118,
+    "R": 69
+   }
+  },
+  "s_orsola_has_I": false
+ },
+ "X10a": {
+  "sites": {
+   "s_orsola": {
+    "n": 187,
+    "prevalence": {
+     "CIP": {
+      "n_R": 72,
+      "frac": 0.3850267379679144
+     },
+     "CTX": {
+      "n_R": 79,
+      "frac": 0.42245989304812837
+     },
+     "CAZ": {
+      "n_R": 69,
+      "frac": 0.3689839572192513
+     }
+    },
+    "pairs": {
+     "CIP-CTX": {
+      "phi": 0.6136782708283917,
+      "phi_max": 0.9251574707176373,
+      "phi_ratio": 0.6633230452674898,
+      "OR": 18.54421768707483,
+      "OR_ci95": [
+       8.74850065874413,
+       39.308222407447936
+      ],
+      "fisher_p": 2.638709985038896e-17,
+      "cells": {
+       "RR": 58,
+       "RS": 14,
+       "SR": 21,
+       "SS": 94
+      },
+      "P(CIPR|CTXR)": 0.7341772151898734,
+      "P(CIPR|CTXS)": 0.12962962962962962,
+      "P(CTXR|CIPR)": 0.8055555555555556,
+      "P(CTXR|CIPS)": 0.1826086956521739
+     },
+     "CIP-CAZ": {
+      "phi": 0.6703439711181686,
+      "phi_max": 0.9664206778384206,
+      "phi_ratio": 0.6936357908002522,
+      "OR": 27.46153846153846,
+      "OR_ci95": [
+       12.325040046867246,
+       61.18731394030974
+      ],
+      "fisher_p": 1.1653929290855452e-20,
+      "cells": {
+       "RR": 56,
+       "RS": 16,
+       "SR": 13,
+       "SS": 102
+      },
+      "P(CIPR|CAZR)": 0.8115942028985508,
+      "P(CIPR|CAZS)": 0.13559322033898305,
+      "P(CAZR|CIPR)": 0.7777777777777778,
+      "P(CAZR|CIPS)": 0.11304347826086956
+     },
+     "CTX-CAZ": {
+      "phi": 0.8940913099582177,
+      "phi_max": 0.8940913099582177,
+      "phi_ratio": 1.0,
+      "OR": 1436.3333333333333,
+      "OR_ci95": [
+       82.83717234473795,
+       24904.923551214084
+      ],
+      "fisher_p": 8.054225095065476e-41,
+      "cells": {
+       "RR": 69,
+       "RS": 10,
+       "SR": 0,
+       "SS": 108
+      },
+      "P(CTXR|CAZR)": 1.0,
+      "P(CTXR|CAZS)": 0.0847457627118644,
+      "P(CAZR|CTXR)": 0.8734177215189873,
+      "P(CAZR|CTXS)": 0.0
+     }
+    },
+    "ceph_discordant": {
+     "CTXR_CAZS": 10,
+     "CAZR_CTXS": 0,
+     "frac_of_any_ceph_R": 0.12658227848101267
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 94,
+     "SSR": 0,
+     "SRS": 8,
+     "SRR": 13,
+     "RSS": 14,
+     "RSR": 0,
+     "RRS": 2,
+     "RRR": 56
+    }
+   },
+   "driams_a": {
+    "n": 4761,
+    "prevalence": {
+     "CIP": {
+      "n_R": 1294,
+      "frac": 0.2717916404116782
+     },
+     "CRO": {
+      "n_R": 975,
+      "frac": 0.20478890989287965
+     },
+     "CAZ": {
+      "n_R": 482,
+      "frac": 0.1012392354547364
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.5311539022968639,
+      "phi_max": 0.8306571079656141,
+      "phi_ratio": 0.6394382196978101,
+      "OR": 15.684164402173913,
+      "OR_ci95": [
+       13.258604582168868,
+       18.553461751566875
+      ],
+      "fisher_p": 1.3150785137130886e-267,
+      "cells": {
+       "RR": 719,
+       "RS": 575,
+       "SR": 256,
+       "SS": 3211
+      },
+      "P(CIPR|CROR)": 0.7374358974358974,
+      "P(CIPR|CROS)": 0.15187533016376123,
+      "P(CROR|CIPR)": 0.5556414219474498,
+      "P(CROR|CIPS)": 0.07383905393712142
+     },
+     "CIP-CAZ": {
+      "phi": 0.35528632016159906,
+      "phi_max": 0.5493664818262908,
+      "phi_ratio": 0.6467200528516049,
+      "OR": 10.311500551419906,
+      "OR_ci95": [
+       8.302446187815278,
+       12.806712770746921
+      ],
+      "fisher_p": 4.219822844368442e-116,
+      "cells": {
+       "RR": 358,
+       "RS": 936,
+       "SR": 124,
+       "SS": 3343
+      },
+      "P(CIPR|CAZR)": 0.7427385892116183,
+      "P(CIPR|CAZS)": 0.21874269689179715,
+      "P(CAZR|CIPR)": 0.27666151468315303,
+      "P(CAZR|CIPS)": 0.03576579175079319
+     },
+     "CRO-CAZ": {
+      "phi": 0.6527363088534646,
+      "phi_max": 0.661363728255766,
+      "phi_ratio": 0.9869551064963077,
+      "OR": 724.312048192771,
+      "OR_ci95": [
+       298.62176529425693,
+       1756.8308948955794
+      ],
+      "fisher_p": 0.0,
+      "cells": {
+       "RR": 477,
+       "RS": 498,
+       "SR": 5,
+       "SS": 3781
+      },
+      "P(CROR|CAZR)": 0.9896265560165975,
+      "P(CROR|CAZS)": 0.11638233232063566,
+      "P(CAZR|CROR)": 0.48923076923076925,
+      "P(CAZR|CROS)": 0.0013206550449022716
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 498,
+     "CAZR_CROS": 5,
+     "frac_of_any_ceph_R": 0.513265306122449
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 3206,
+     "SSR": 5,
+     "SRS": 137,
+     "SRR": 119,
+     "RSS": 575,
+     "RSR": 0,
+     "RRS": 361,
+     "RRR": 358
+    }
+   },
+   "driams_b": {
+    "n": 213,
+    "prevalence": {
+     "CIP": {
+      "n_R": 58,
+      "frac": 0.27230046948356806
+     },
+     "CRO": {
+      "n_R": 45,
+      "frac": 0.2112676056338028
+     },
+     "CAZ": {
+      "n_R": 45,
+      "frac": 0.2112676056338028
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.5618596018521375,
+      "phi_max": 0.8460644911309713,
+      "phi_ratio": 0.6640860215053763,
+      "OR": 18.545454545454547,
+      "OR_ci95": [
+       8.286712833181603,
+       41.504260039076385
+      ],
+      "fisher_p": 8.76522107475771e-15,
+      "cells": {
+       "RR": 34,
+       "RS": 24,
+       "SR": 11,
+       "SS": 144
+      },
+      "P(CIPR|CROR)": 0.7555555555555555,
+      "P(CIPR|CROS)": 0.14285714285714285,
+      "P(CROR|CIPR)": 0.5862068965517241,
+      "P(CROR|CIPS)": 0.07096774193548387
+     },
+     "CIP-CAZ": {
+      "phi": 0.5618596018521375,
+      "phi_max": 0.8460644911309713,
+      "phi_ratio": 0.6640860215053763,
+      "OR": 18.545454545454547,
+      "OR_ci95": [
+       8.286712833181603,
+       41.504260039076385
+      ],
+      "fisher_p": 8.76522107475771e-15,
+      "cells": {
+       "RR": 34,
+       "RS": 24,
+       "SR": 11,
+       "SS": 144
+      },
+      "P(CIPR|CAZR)": 0.7555555555555555,
+      "P(CIPR|CAZS)": 0.14285714285714285,
+      "P(CAZR|CIPR)": 0.5862068965517241,
+      "P(CAZR|CIPS)": 0.07096774193548387
+     },
+     "CRO-CAZ": {
+      "phi": 1.0,
+      "phi_max": 1.0,
+      "phi_ratio": 1.0,
+      "OR": 30667.0,
+      "OR_ci95": [
+       600.258996373765,
+       1566765.17083702
+      ],
+      "fisher_p": 2.996937564570824e-47,
+      "cells": {
+       "RR": 45,
+       "RS": 0,
+       "SR": 0,
+       "SS": 168
+      },
+      "P(CROR|CAZR)": 1.0,
+      "P(CROR|CAZS)": 0.0,
+      "P(CAZR|CROR)": 1.0,
+      "P(CAZR|CROS)": 0.0
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 0,
+     "CAZR_CROS": 0,
+     "frac_of_any_ceph_R": 0.0
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 144,
+     "SSR": 0,
+     "SRS": 0,
+     "SRR": 11,
+     "RSS": 24,
+     "RSR": 0,
+     "RRS": 0,
+     "RRR": 34
+    }
+   },
+   "driams_c": {
+    "n": 882,
+    "prevalence": {
+     "CIP": {
+      "n_R": 188,
+      "frac": 0.21315192743764172
+     },
+     "CRO": {
+      "n_R": 148,
+      "frac": 0.16780045351473924
+     },
+     "CAZ": {
+      "n_R": 139,
+      "frac": 0.15759637188208617
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.34415146017527803,
+      "phi_max": 0.8627473586235274,
+      "phi_ratio": 0.3989017836280083,
+      "OR": 6.321038961038961,
+      "OR_ci95": [
+       4.318139093205484,
+       9.25295195095541
+      ],
+      "fisher_p": 4.593350948544338e-21,
+      "cells": {
+       "RR": 78,
+       "RS": 110,
+       "SR": 70,
+       "SS": 624
+      },
+      "P(CIPR|CROR)": 0.527027027027027,
+      "P(CIPR|CROS)": 0.14986376021798364,
+      "P(CROR|CIPR)": 0.4148936170212766,
+      "P(CROR|CIPS)": 0.10086455331412104
+     },
+     "CIP-CAZ": {
+      "phi": 0.3143499506442115,
+      "phi_max": 0.8310244543393946,
+      "phi_ratio": 0.3782679907946841,
+      "OR": 5.58647561588738,
+      "OR_ci95": [
+       3.794718388317254,
+       8.2242492362506
+      ],
+      "fisher_p": 7.649128335363095e-18,
+      "cells": {
+       "RR": 71,
+       "RS": 117,
+       "SR": 68,
+       "SS": 626
+      },
+      "P(CIPR|CAZR)": 0.5107913669064749,
+      "P(CIPR|CAZS)": 0.15746971736204576,
+      "P(CAZR|CIPR)": 0.3776595744680851,
+      "P(CAZR|CIPS)": 0.09798270893371758
+     },
+     "CRO-CAZ": {
+      "phi": 0.8882874827187266,
+      "phi_max": 0.9632303663789303,
+      "phi_ratio": 0.9221963029031816,
+      "OR": 581.7901234567901,
+      "OR_ci95": [
+       255.81903877710977,
+       1323.1218027004547
+      ],
+      "fisher_p": 3.593514583488894e-123,
+      "cells": {
+       "RR": 130,
+       "RS": 18,
+       "SR": 9,
+       "SS": 725
+      },
+      "P(CROR|CAZR)": 0.935251798561151,
+      "P(CROR|CAZS)": 0.024226110363391656,
+      "P(CAZR|CROR)": 0.8783783783783784,
+      "P(CAZR|CROS)": 0.01226158038147139
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 18,
+     "CAZR_CROS": 9,
+     "frac_of_any_ceph_R": 0.17197452229299362
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 617,
+     "SSR": 7,
+     "SRS": 9,
+     "SRR": 61,
+     "RSS": 108,
+     "RSR": 2,
+     "RRS": 9,
+     "RRR": 69
+    }
+   },
+   "driams_d": {
+    "n": 1936,
+    "prevalence": {
+     "CIP": {
+      "n_R": 370,
+      "frac": 0.19111570247933884
+     },
+     "CRO": {
+      "n_R": 182,
+      "frac": 0.09400826446280992
+     },
+     "CAZ": {
+      "n_R": 164,
+      "frac": 0.08471074380165289
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.4601304858733607,
+      "phi_max": 0.6626983912423862,
+      "phi_ratio": 0.6943286598459012,
+      "OR": 19.87381974248927,
+      "OR_ci95": [
+       13.811619249614449,
+       28.596843282367626
+      ],
+      "fisher_p": 2.485895198799976e-69,
+      "cells": {
+       "RR": 137,
+       "RS": 233,
+       "SR": 45,
+       "SS": 1521
+      },
+      "P(CIPR|CROR)": 0.7527472527472527,
+      "P(CIPR|CROS)": 0.13283922462941847,
+      "P(CROR|CIPR)": 0.37027027027027026,
+      "P(CROR|CIPS)": 0.028735632183908046
+     },
+     "CIP-CAZ": {
+      "phi": 0.413562884023118,
+      "phi_max": 0.6258713650023173,
+      "phi_ratio": 0.6607793664143539,
+      "OR": 16.024701195219123,
+      "OR_ci95": [
+       11.090170189658453,
+       23.154833875815
+      ],
+      "fisher_p": 3.652821319582629e-56,
+      "cells": {
+       "RR": 119,
+       "RS": 251,
+       "SR": 45,
+       "SS": 1521
+      },
+      "P(CIPR|CAZR)": 0.725609756097561,
+      "P(CIPR|CAZS)": 0.14164785553047404,
+      "P(CAZR|CIPR)": 0.3216216216216216,
+      "P(CAZR|CIPS)": 0.028735632183908046
+     },
+     "CRO-CAZ": {
+      "phi": 0.8236598961900882,
+      "phi_max": 0.9444286771678624,
+      "phi_ratio": 0.8721250382401202,
+      "OR": 357.8591749644381,
+      "OR_ci95": [
+       200.65688163339962,
+       638.2197713019378
+      ],
+      "fisher_p": 6.875956306147991e-160,
+      "cells": {
+       "RR": 145,
+       "RS": 37,
+       "SR": 19,
+       "SS": 1735
+      },
+      "P(CROR|CAZR)": 0.8841463414634146,
+      "P(CROR|CAZS)": 0.0208803611738149,
+      "P(CAZR|CROR)": 0.7967032967032966,
+      "P(CAZR|CROS)": 0.010832383124287344
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 37,
+     "CAZR_CROS": 19,
+     "frac_of_any_ceph_R": 0.27860696517412936
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 1507,
+     "SSR": 14,
+     "SRS": 14,
+     "SRR": 31,
+     "RSS": 228,
+     "RSR": 5,
+     "RRS": 23,
+     "RRR": 114
+    }
+   }
+  },
+  "cooccurrence_reproduction": {
+   "s_orsola": {
+    "n_stored": 187,
+    "n_here": 187,
+    "max_abs_phi_diff": 0.0
+   },
+   "driams_a": {
+    "n_stored": 4761,
+    "n_here": 4761,
+    "max_abs_phi_diff": 0.0
+   },
+   "driams_b": {
+    "n_stored": 213,
+    "n_here": 213,
+    "max_abs_phi_diff": 0.0
+   },
+   "driams_c": {
+    "n_stored": 882,
+    "n_here": 882,
+    "max_abs_phi_diff": 0.0
+   },
+   "driams_d": {
+    "n_stored": 1936,
+    "n_here": 1936,
+    "max_abs_phi_diff": 0.0
+   }
+  },
+  "driams_a_per_year": {
+   "2015": {
+    "n": 92,
+    "prevalence": {
+     "CIP": {
+      "n_R": 28,
+      "frac": 0.30434782608695654
+     },
+     "CRO": {
+      "n_R": 23,
+      "frac": 0.25
+     },
+     "CAZ": {
+      "n_R": 11,
+      "frac": 0.11956521739130435
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.4364357804719848,
+      "phi_max": 0.8728715609439694,
+      "phi_ratio": 0.5000000000000001,
+      "OR": 8.076923076923077,
+      "OR_ci95": [
+       2.8292846127884395,
+       23.05766132387708
+      ],
+      "fisher_p": 0.0001184563910622303,
+      "cells": {
+       "RR": 15,
+       "RS": 13,
+       "SR": 8,
+       "SS": 56
+      },
+      "P(CIPR|CROR)": 0.6521739130434783,
+      "P(CIPR|CROS)": 0.18840579710144928,
+      "P(CROR|CIPR)": 0.5357142857142857,
+      "P(CROR|CIPS)": 0.125
+     },
+     "CIP-CAZ": {
+      "phi": 0.26590801173915524,
+      "phi_max": 0.5571405960248966,
+      "phi_ratio": 0.47727272727272735,
+      "OR": 5.0,
+      "OR_ci95": [
+       1.3287788750986946,
+       18.814266593561804
+      ],
+      "fisher_p": 0.03051385756373308,
+      "cells": {
+       "RR": 7,
+       "RS": 21,
+       "SR": 4,
+       "SS": 60
+      },
+      "P(CIPR|CAZR)": 0.6363636363636364,
+      "P(CIPR|CAZS)": 0.25925925925925924,
+      "P(CAZR|CIPR)": 0.25,
+      "P(CAZR|CIPS)": 0.0625
+     },
+     "CRO-CAZ": {
+      "phi": 0.6382847385042254,
+      "phi_max": 0.6382847385042254,
+      "phi_ratio": 1.0,
+      "OR": 127.88,
+      "OR_ci95": [
+       7.07344459809446,
+       2311.927968504266
+      ],
+      "fisher_p": 2.515389224086862e-08,
+      "cells": {
+       "RR": 11,
+       "RS": 12,
+       "SR": 0,
+       "SS": 69
+      },
+      "P(CROR|CAZR)": 1.0,
+      "P(CROR|CAZS)": 0.14814814814814814,
+      "P(CAZR|CROR)": 0.4782608695652174,
+      "P(CAZR|CROS)": 0.0
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 12,
+     "CAZR_CROS": 0,
+     "frac_of_any_ceph_R": 0.5217391304347826
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 56,
+     "SSR": 0,
+     "SRS": 4,
+     "SRR": 4,
+     "RSS": 13,
+     "RSR": 0,
+     "RRS": 8,
+     "RRR": 7
+    }
+   },
+   "2016": {
+    "n": 1335,
+    "prevalence": {
+     "CIP": {
+      "n_R": 385,
+      "frac": 0.2883895131086142
+     },
+     "CRO": {
+      "n_R": 317,
+      "frac": 0.23745318352059924
+     },
+     "CAZ": {
+      "n_R": 179,
+      "frac": 0.13408239700374533
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.5385025676672279,
+      "phi_max": 0.8765711643089954,
+      "phi_ratio": 0.6143284077702141,
+      "OR": 14.7193177604746,
+      "OR_ci95": [
+       10.902674877234379,
+       19.872033035326236
+      ],
+      "fisher_p": 1.321716597499608e-80,
+      "cells": {
+       "RR": 230,
+       "RS": 155,
+       "SR": 87,
+       "SS": 863
+      },
+      "P(CIPR|CROR)": 0.7255520504731862,
+      "P(CIPR|CROS)": 0.15225933202357564,
+      "P(CROR|CIPR)": 0.5974025974025974,
+      "P(CROR|CIPS)": 0.09157894736842105
+     },
+     "CIP-CAZ": {
+      "phi": 0.365788352738496,
+      "phi_max": 0.6181288818759937,
+      "phi_ratio": 0.5917671273154955,
+      "OR": 8.500745378652356,
+      "OR_ci95": [
+       5.983635907902612,
+       12.076716081144205
+      ],
+      "fisher_p": 1.1093699237809648e-36,
+      "cells": {
+       "RR": 127,
+       "RS": 258,
+       "SR": 52,
+       "SS": 898
+      },
+      "P(CIPR|CAZR)": 0.7094972067039106,
+      "P(CIPR|CAZS)": 0.2231833910034602,
+      "P(CAZR|CIPR)": 0.32987012987012987,
+      "P(CAZR|CIPS)": 0.05473684210526316
+     },
+     "CRO-CAZ": {
+      "phi": 0.689668159639184,
+      "phi_max": 0.705166798822623,
+      "phi_ratio": 0.9780213146601398,
+      "OR": 422.31678486997635,
+      "OR_ci95": [
+       133.09344620179218,
+       1340.0469510159269
+      ],
+      "fisher_p": 3.170594026621611e-126,
+      "cells": {
+       "RR": 176,
+       "RS": 141,
+       "SR": 3,
+       "SS": 1015
+      },
+      "P(CROR|CAZR)": 0.9832402234636871,
+      "P(CROR|CAZS)": 0.12197231833910034,
+      "P(CAZR|CROR)": 0.555205047318612,
+      "P(CAZR|CROS)": 0.0029469548133595285
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 141,
+     "CAZR_CROS": 3,
+     "frac_of_any_ceph_R": 0.45
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 860,
+     "SSR": 3,
+     "SRS": 38,
+     "SRR": 49,
+     "RSS": 155,
+     "RSR": 0,
+     "RRS": 103,
+     "RRR": 127
+    }
+   },
+   "2017": {
+    "n": 2009,
+    "prevalence": {
+     "CIP": {
+      "n_R": 553,
+      "frac": 0.27526132404181186
+     },
+     "CRO": {
+      "n_R": 412,
+      "frac": 0.20507715281234445
+     },
+     "CAZ": {
+      "n_R": 180,
+      "frac": 0.0895968143354903
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.5288271536349124,
+      "phi_max": 0.8241651982813657,
+      "phi_ratio": 0.6416518857356236,
+      "OR": 15.505162797708772,
+      "OR_ci95": [
+       11.972958803938473,
+       20.079420410631485
+      ],
+      "fisher_p": 2.3657074306729682e-113,
+      "cells": {
+       "RR": 305,
+       "RS": 248,
+       "SR": 107,
+       "SS": 1349
+      },
+      "P(CIPR|CROR)": 0.7402912621359223,
+      "P(CIPR|CROS)": 0.15529117094552286,
+      "P(CROR|CIPR)": 0.5515370705244123,
+      "P(CROR|CIPS)": 0.07348901098901099
+     },
+     "CIP-CAZ": {
+      "phi": 0.34905053049249485,
+      "phi_max": 0.5090348561383169,
+      "phi_ratio": 0.6857104700854699,
+      "OR": 11.587427830800047,
+      "OR_ci95": [
+       8.042860641728566,
+       16.694120377689725
+      ],
+      "fisher_p": 2.0729892632023427e-48,
+      "cells": {
+       "RR": 139,
+       "RS": 414,
+       "SR": 41,
+       "SS": 1415
+      },
+      "P(CIPR|CAZR)": 0.7722222222222223,
+      "P(CIPR|CAZS)": 0.2263531984691088,
+      "P(CAZR|CIPR)": 0.2513562386980108,
+      "P(CAZR|CIPS)": 0.02815934065934066
+     },
+     "CRO-CAZ": {
+      "phi": 0.6176369218207816,
+      "phi_max": 0.6176369218207817,
+      "phi_ratio": 0.9999999999999998,
+      "OR": 2480.4193548387098,
+      "OR_ci95": [
+       154.02754261638268,
+       39944.02605761036
+      ],
+      "fisher_p": 3.555248969028483e-141,
+      "cells": {
+       "RR": 180,
+       "RS": 232,
+       "SR": 0,
+       "SS": 1597
+      },
+      "P(CROR|CAZR)": 1.0,
+      "P(CROR|CAZS)": 0.1268452706396938,
+      "P(CAZR|CROR)": 0.4368932038834951,
+      "P(CAZR|CROS)": 0.0
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 232,
+     "CAZR_CROS": 0,
+     "frac_of_any_ceph_R": 0.5631067961165048
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 1349,
+     "SSR": 0,
+     "SRS": 66,
+     "SRR": 41,
+     "RSS": 248,
+     "RSR": 0,
+     "RRS": 166,
+     "RRR": 139
+    }
+   },
+   "2018": {
+    "n": 1325,
+    "prevalence": {
+     "CIP": {
+      "n_R": 328,
+      "frac": 0.24754716981132074
+     },
+     "CRO": {
+      "n_R": 223,
+      "frac": 0.16830188679245284
+     },
+     "CAZ": {
+      "n_R": 112,
+      "frac": 0.08452830188679246
+     }
+    },
+    "pairs": {
+     "CIP-CRO": {
+      "phi": 0.5318864044892426,
+      "phi_max": 0.7842820792838475,
+      "phi_ratio": 0.6781825296517354,
+      "OR": 18.561262520382016,
+      "OR_ci95": [
+       13.087337612180404,
+       26.324717567451795
+      ],
+      "fisher_p": 1.0573227771777922e-72,
+      "cells": {
+       "RR": 169,
+       "RS": 159,
+       "SR": 54,
+       "SS": 943
+      },
+      "P(CIPR|CROR)": 0.757847533632287,
+      "P(CIPR|CROS)": 0.1442831215970962,
+      "P(CROR|CIPR)": 0.5152439024390244,
+      "P(CROR|CIPS)": 0.05416248746238716
+     },
+     "CIP-CAZ": {
+      "phi": 0.3600434523123579,
+      "phi_max": 0.5297723261474936,
+      "phi_ratio": 0.6796192147872187,
+      "OR": 12.566681908245695,
+      "OR_ci95": [
+       7.971034811278226,
+       19.811918768637963
+      ],
+      "fisher_p": 5.221861937220888e-33,
+      "cells": {
+       "RR": 85,
+       "RS": 243,
+       "SR": 27,
+       "SS": 970
+      },
+      "P(CIPR|CAZR)": 0.7589285714285714,
+      "P(CIPR|CAZS)": 0.20032976092333057,
+      "P(CAZR|CIPR)": 0.25914634146341464,
+      "P(CAZR|CIPS)": 0.02708124373119358
+     },
+     "CRO-CAZ": {
+      "phi": 0.6609837911259858,
+      "phi_max": 0.6754869710031437,
+      "phi_ratio": 0.9785292973813845,
+      "OR": 535.3982300884956,
+      "OR_ci95": [
+       130.48065671977565,
+       2196.88704815086
+      ],
+      "fisher_p": 2.169628056953324e-94,
+      "cells": {
+       "RR": 110,
+       "RS": 113,
+       "SR": 2,
+       "SS": 1100
+      },
+      "P(CROR|CAZR)": 0.9821428571428571,
+      "P(CROR|CAZS)": 0.09315746084089035,
+      "P(CAZR|CROR)": 0.49327354260089684,
+      "P(CAZR|CROS)": 0.0018148820326678765
+     }
+    },
+    "ceph_discordant": {
+     "CROR_CAZS": 113,
+     "CAZR_CROS": 2,
+     "frac_of_any_ceph_R": 0.5111111111111111
+    },
+    "profiles_CIP_3GC_CAZ": {
+     "SSS": 941,
+     "SSR": 2,
+     "SRS": 29,
+     "SRR": 25,
+     "RSS": 159,
+     "RSR": 0,
+     "RRS": 84,
+     "RRR": 85
+    }
+   }
+  }
+ },
+ "X10b": {
+  "raw_counts": {
+   "driams_a_2015": {
+    "Ciprofloxacin": {
+     "S": 63,
+     "R": 33,
+     "I": 1
+    },
+    "Ceftriaxone": {
+     "S": 70,
+     "R": 27
+    },
+    "Ceftazidime": {
+     "S": 72,
+     "R": 11,
+     "I": 9,
+     "R(1), I(1)": 4,
+     "-": 1
+    }
+   },
+   "driams_a_2016": {
+    "Ciprofloxacin": {
+     "S": 929,
+     "R": 399,
+     "I": 34,
+     "R(1), S(1)": 20,
+     "I(1), S(1)": 9,
+     "-": 6
+    },
+    "Ceftriaxone": {
+     "S": 1046,
+     "R": 338,
+     "I(1), S(1)": 6,
+     "-": 5,
+     "R(1), S(1)": 2
+    },
+    "Ceftazidime": {
+     "S": 1069,
+     "R": 183,
+     "I": 105,
+     "-": 17,
+     "R(1), I(1)": 17,
+     "I(1), S(1)": 4,
+     "R(1), S(1)": 2
+    }
+   },
+   "driams_a_2017": {
+    "Ciprofloxacin": {
+     "S": 1460,
+     "R": 586,
+     "I": 31,
+     "I(1), S(1)": 15,
+     "R(1), S(1)": 10,
+     "-": 5,
+     "R(1), I(1)": 2
+    },
+    "Ceftriaxone": {
+     "S": 1629,
+     "R": 464,
+     "R(1), S(1)": 10,
+     "-": 4,
+     "I(1), S(1)": 1,
+     "I": 1
+    },
+    "Ceftazidime": {
+     "S": 1675,
+     "R": 192,
+     "I": 166,
+     "-": 28,
+     "R(1), I(1)": 25,
+     "I(1), S(1)": 12,
+     "R(1), S(1)": 11
+    }
+   },
+   "driams_a_2018": {
+    "Ciprofloxacin": {
+     "S": 993,
+     "R": 353,
+     "I": 29,
+     "I(1), S(1)": 14,
+     "-": 6,
+     "R(1), S(1)": 5
+    },
+    "Ceftriaxone": {
+     "S": 1130,
+     "R": 256,
+     "R(1), S(1)": 8,
+     "-": 6
+    },
+    "Ceftazidime": {
+     "S": 1135,
+     "R": 120,
+     "I": 85,
+     "-": 22,
+     "R(1), I(1)": 17,
+     "I(1), S(1)": 16,
+     "R(1), S(1)": 5
+    }
+   },
+   "driams_b_2018": {
+    "Ciprofloxacin": {
+     "S": 154,
+     "R": 58,
+     "I": 1
+    },
+    "Ceftriaxone": {
+     "S": 168,
+     "R": 45
+    },
+    "Ceftazidime": {
+     "S": 168,
+     "R": 45
+    }
+   },
+   "driams_c_2018": {
+    "Ciprofloxacin": {
+     "S": 691,
+     "R": 188,
+     "I": 3
+    },
+    "Ceftriaxone": {
+     "S": 731,
+     "R": 148,
+     "I": 3
+    },
+    "Ceftazidime": {
+     "S": 736,
+     "R": 139,
+     "I": 7
+    }
+   },
+   "driams_d_2018": {
+    "Ciprofloxacin": {
+     "S": 1566,
+     "R": 370
+    },
+    "Ceftriaxone": {
+     "S": 1754,
+     "R": 182
+    },
+    "Ceftazidime": {
+     "S": 1765,
+     "R": 164,
+     "I": 7
+    }
+   }
+  },
+  "dropped": {
+   "driams_a_2015": {
+    "rows_before_SIR_check": 97,
+    "rows_dropped": 5,
+    "rows_included": 92
+   },
+   "driams_a_2016": {
+    "rows_before_SIR_check": 1397,
+    "rows_dropped": 62,
+    "rows_included": 1335
+   },
+   "driams_a_2017": {
+    "rows_before_SIR_check": 2109,
+    "rows_dropped": 100,
+    "rows_included": 2009
+   },
+   "driams_a_2018": {
+    "rows_before_SIR_check": 1400,
+    "rows_dropped": 75,
+    "rows_included": 1325
+   },
+   "driams_b_2018": {
+    "rows_before_SIR_check": 213,
+    "rows_dropped": 0,
+    "rows_included": 213
+   },
+   "driams_c_2018": {
+    "rows_before_SIR_check": 882,
+    "rows_dropped": 0,
+    "rows_included": 882
+   },
+   "driams_d_2018": {
+    "rows_before_SIR_check": 1936,
+    "rows_dropped": 0,
+    "rows_included": 1936
+   }
+  },
+  "I_to_R": {
+   "driams_a": {
+    "n": 4761,
+    "n_I": {
+     "CIP": 95,
+     "CRO": 1,
+     "CAZ": 365
+    },
+    "CAZ_I_isolates_by_CRO": {
+     "R": 337,
+     "S": 28
+    },
+    "CAZ_I_isolates_by_CIP": {
+     "R": 262,
+     "S": 72,
+     "I": 31
+    },
+    "prevalence_I_to_S": {
+     "CIP": 0.2717916404116782,
+     "CRO": 0.20478890989287965,
+     "CAZ": 0.1012392354547364
+    },
+    "prevalence_I_to_R": {
+     "CIP": 0.29174543163201005,
+     "CRO": 0.2049989498004621,
+     "CAZ": 0.17790380172232725
+    },
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.5311539022968639,
+      "I_to_R": 0.5519801721946851,
+      "diff": 0.020826269897821215,
+      "phi_max_I_to_S": 0.8306571079656141,
+      "phi_max_I_to_R": 0.7911969911734799
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.35528632016159906,
+      "I_to_R": 0.5024945187843747,
+      "diff": 0.14720819862277562,
+      "phi_max_I_to_S": 0.5493664818262908,
+      "phi_max_I_to_R": 0.724809629600998
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.6527363088534646,
+      "I_to_R": 0.8711970679631886,
+      "diff": 0.21846075910972407,
+      "phi_max_I_to_S": 0.661363728255766,
+      "phi_max_I_to_R": 0.9160924999550136
+     }
+    }
+   },
+   "driams_b": {
+    "n": 213,
+    "n_I": {
+     "CIP": 1,
+     "CRO": 0,
+     "CAZ": 0
+    },
+    "CAZ_I_isolates_by_CRO": {},
+    "CAZ_I_isolates_by_CIP": {},
+    "prevalence_I_to_S": {
+     "CIP": 0.27230046948356806,
+     "CRO": 0.2112676056338028,
+     "CAZ": 0.2112676056338028
+    },
+    "prevalence_I_to_R": {
+     "CIP": 0.27699530516431925,
+     "CRO": 0.2112676056338028,
+     "CAZ": 0.2112676056338028
+    },
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.5618596018521375,
+      "I_to_R": 0.5791538842291993,
+      "diff": 0.017294282377061876,
+      "phi_max_I_to_S": 0.8460644911309713,
+      "phi_max_I_to_R": 0.8361534203559066
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.5618596018521375,
+      "I_to_R": 0.5791538842291993,
+      "diff": 0.017294282377061876,
+      "phi_max_I_to_S": 0.8460644911309713,
+      "phi_max_I_to_R": 0.8361534203559066
+     },
+     "CRO-CAZ": {
+      "I_to_S": 1.0,
+      "I_to_R": 1.0,
+      "diff": 0.0,
+      "phi_max_I_to_S": 1.0,
+      "phi_max_I_to_R": 1.0
+     }
+    }
+   },
+   "driams_c": {
+    "n": 882,
+    "n_I": {
+     "CIP": 3,
+     "CRO": 3,
+     "CAZ": 7
+    },
+    "CAZ_I_isolates_by_CRO": {
+     "S": 4,
+     "R": 3
+    },
+    "CAZ_I_isolates_by_CIP": {
+     "S": 4,
+     "R": 3
+    },
+    "prevalence_I_to_S": {
+     "CIP": 0.21315192743764172,
+     "CRO": 0.16780045351473924,
+     "CAZ": 0.15759637188208617
+    },
+    "prevalence_I_to_R": {
+     "CIP": 0.2165532879818594,
+     "CRO": 0.1712018140589569,
+     "CAZ": 0.1655328798185941
+    },
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.34415146017527803,
+      "I_to_R": 0.33103069479631936,
+      "diff": -0.013120765378958676,
+      "phi_max_I_to_S": 0.8627473586235274,
+      "phi_max_I_to_R": 0.8644743768174885
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.3143499506442115,
+      "I_to_R": 0.31390012654397526,
+      "diff": -0.0004498241002362513,
+      "phi_max_I_to_S": 0.8310244543393946,
+      "phi_max_I_to_R": 0.8471491136513692
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.8882874827187266,
+      "I_to_R": 0.8989733357657492,
+      "diff": 0.010685853047022631,
+      "phi_max_I_to_S": 0.9632303663789303,
+      "phi_max_I_to_R": 0.9799586157430124
+     }
+    }
+   },
+   "driams_d": {
+    "n": 1936,
+    "n_I": {
+     "CIP": 0,
+     "CRO": 0,
+     "CAZ": 7
+    },
+    "CAZ_I_isolates_by_CRO": {
+     "R": 6,
+     "S": 1
+    },
+    "CAZ_I_isolates_by_CIP": {
+     "R": 4,
+     "S": 3
+    },
+    "prevalence_I_to_S": {
+     "CIP": 0.19111570247933884,
+     "CRO": 0.09400826446280992,
+     "CAZ": 0.08471074380165289
+    },
+    "prevalence_I_to_R": {
+     "CIP": 0.19111570247933884,
+     "CRO": 0.09400826446280992,
+     "CAZ": 0.08832644628099173
+    },
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.4601304858733607,
+      "I_to_R": 0.4601304858733607,
+      "diff": 0.0,
+      "phi_max_I_to_S": 0.6626983912423862,
+      "phi_max_I_to_R": 0.6626983912423862
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.413562884023118,
+      "I_to_R": 0.4181367657924274,
+      "diff": 0.004573881769309396,
+      "phi_max_I_to_S": 0.6258713650023173,
+      "phi_max_I_to_R": 0.6403548706063832
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.8236598961900882,
+      "I_to_R": 0.8415415257969282,
+      "diff": 0.017881629606840033,
+      "phi_max_I_to_S": 0.9444286771678624,
+      "phi_max_I_to_R": 0.9662840276492678
+     }
+    }
+   }
+  },
+  "driams_a_per_year": {
+   "2015": {
+    "n": 92,
+    "n_I_CAZ": 9,
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.4364357804719848,
+      "I_to_R": 0.4727571907759795
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.26590801173915524,
+      "I_to_R": 0.26633805697108515
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.6382847385042254,
+      "I_to_R": 0.669438681395203
+     }
+    },
+    "prev_CAZ_I_to_S": 0.11956521739130435,
+    "prev_CAZ_I_to_R": 0.21739130434782608
+   },
+   "2016": {
+    "n": 1335,
+    "n_I_CAZ": 105,
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.5385025676672279,
+      "I_to_R": 0.5709262763994795
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.365788352738496,
+      "I_to_R": 0.5319408913107118
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.689668159639184,
+      "I_to_R": 0.8799235271258288
+     }
+    },
+    "prev_CAZ_I_to_S": 0.13408239700374533,
+    "prev_CAZ_I_to_R": 0.21273408239700375
+   },
+   "2017": {
+    "n": 2009,
+    "n_I_CAZ": 166,
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.5288271536349124,
+      "I_to_R": 0.5396423253543817
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.34905053049249485,
+      "I_to_R": 0.4918675152547051
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.6176369218207816,
+      "I_to_R": 0.8510013123094645
+     }
+    },
+    "prev_CAZ_I_to_S": 0.0895968143354903,
+    "prev_CAZ_I_to_R": 0.17222498755599802
+   },
+   "2018": {
+    "n": 1325,
+    "n_I_CAZ": 85,
+    "phi": {
+     "CIP-CRO": {
+      "I_to_S": 0.5318864044892426,
+      "I_to_R": 0.5543223309805374
+     },
+     "CIP-CAZ": {
+      "I_to_S": 0.3600434523123579,
+      "I_to_R": 0.5016732663254005
+     },
+     "CRO-CAZ": {
+      "I_to_S": 0.6609837911259858,
+      "I_to_R": 0.9119925235041502
+     }
+    },
+    "prev_CAZ_I_to_S": 0.08452830188679246,
+    "prev_CAZ_I_to_R": 0.14867924528301887
+   }
+  },
+  "s_orsola": {
+   "n_I": 0,
+   "note": "No I results among the analysed Sant'Orsola isolates for CIP, CTX or CAZ (raw values are S or R only), so the I mapping has no effect there."
+  }
+ },
+ "X10c": {
+  "driams_a": {
+   "n_ecoli_rows": 7320,
+   "drugs": [
+    "Piperacillin-Tazobactam",
+    "Ciprofloxacin",
+    "Cefepime",
+    "Cotrimoxazole",
+    "Ceftazidime",
+    "Levofloxacin",
+    "Tobramycin",
+    "Ceftriaxone",
+    "Amoxicillin-Clavulanic acid",
+    "Ampicillin-Amoxicillin",
+    "Cefpodoxime",
+    "Norfloxacin"
+   ],
+   "n_drugs": 12,
+   "drug_summary": {
+    "Piperacillin-Tazobactam": {
+     "n": 4799,
+     "n_R": 306,
+     "prev": 0.06376328401750364
+    },
+    "Ciprofloxacin": {
+     "n": 4911,
+     "n_R": 1371,
+     "prev": 0.27916921197312156
+    },
+    "Cefepime": {
+     "n": 4890,
+     "n_R": 335,
+     "prev": 0.06850715746421268
+    },
+    "Cotrimoxazole": {
+     "n": 4888,
+     "n_R": 1595,
+     "prev": 0.3263093289689034
+    },
+    "Ceftazidime": {
+     "n": 4822,
+     "n_R": 506,
+     "prev": 0.10493571132310245
+    },
+    "Levofloxacin": {
+     "n": 4858,
+     "n_R": 1346,
+     "prev": 0.27706875257307534
+    },
+    "Tobramycin": {
+     "n": 4876,
+     "n_R": 604,
+     "prev": 0.12387202625102543
+    },
+    "Ceftriaxone": {
+     "n": 4961,
+     "n_R": 1085,
+     "prev": 0.21870590606732512
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "n": 4826,
+     "n_R": 1177,
+     "prev": 0.24388727724823872
+    },
+    "Ampicillin-Amoxicillin": {
+     "n": 4866,
+     "n_R": 2913,
+     "prev": 0.5986436498150431
+    },
+    "Cefpodoxime": {
+     "n": 2075,
+     "n_R": 874,
+     "prev": 0.42120481927710846
+    },
+    "Norfloxacin": {
+     "n": 1488,
+     "n_R": 372,
+     "prev": 0.25
+    }
+   },
+   "cluster_order": [
+    "Piperacillin-Tazobactam",
+    "Tobramycin",
+    "Norfloxacin",
+    "Ciprofloxacin",
+    "Levofloxacin",
+    "Ceftriaxone",
+    "Cefpodoxime",
+    "Cefepime",
+    "Ceftazidime",
+    "Cotrimoxazole",
+    "Amoxicillin-Clavulanic acid",
+    "Ampicillin-Amoxicillin"
+   ],
+   "phi_matrix": {
+    "Piperacillin-Tazobactam": {
+     "Piperacillin-Tazobactam": 1.0,
+     "Tobramycin": 0.2004,
+     "Norfloxacin": 0.1157,
+     "Ciprofloxacin": 0.1557,
+     "Levofloxacin": 0.1567,
+     "Ceftriaxone": 0.1778,
+     "Cefpodoxime": 0.2484,
+     "Cefepime": 0.2257,
+     "Ceftazidime": 0.2573,
+     "Cotrimoxazole": 0.2088,
+     "Amoxicillin-Clavulanic acid": 0.4726,
+     "Ampicillin-Amoxicillin": 0.2179
+    },
+    "Tobramycin": {
+     "Piperacillin-Tazobactam": 0.2004,
+     "Tobramycin": 1.0,
+     "Norfloxacin": 0.3666,
+     "Ciprofloxacin": 0.3988,
+     "Levofloxacin": 0.3988,
+     "Ceftriaxone": 0.4213,
+     "Cefpodoxime": 0.3801,
+     "Cefepime": 0.3163,
+     "Ceftazidime": 0.3363,
+     "Cotrimoxazole": 0.2832,
+     "Amoxicillin-Clavulanic acid": 0.3818,
+     "Ampicillin-Amoxicillin": 0.303
+    },
+    "Norfloxacin": {
+     "Piperacillin-Tazobactam": 0.1157,
+     "Tobramycin": 0.3666,
+     "Norfloxacin": 1.0,
+     "Ciprofloxacin": 1.0,
+     "Levofloxacin": 1.0,
+     "Ceftriaxone": 0.4539,
+     "Cefpodoxime": 0.4283,
+     "Cefepime": 0.3087,
+     "Ceftazidime": 0.3147,
+     "Cotrimoxazole": 0.2793,
+     "Amoxicillin-Clavulanic acid": 0.2242,
+     "Ampicillin-Amoxicillin": 0.4167
+    },
+    "Ciprofloxacin": {
+     "Piperacillin-Tazobactam": 0.1557,
+     "Tobramycin": 0.3988,
+     "Norfloxacin": 1.0,
+     "Ciprofloxacin": 1.0,
+     "Levofloxacin": 1.0,
+     "Ceftriaxone": 0.5219,
+     "Cefpodoxime": 0.5104,
+     "Cefepime": 0.3177,
+     "Ceftazidime": 0.3527,
+     "Cotrimoxazole": 0.2764,
+     "Amoxicillin-Clavulanic acid": 0.2711,
+     "Ampicillin-Amoxicillin": 0.4097
+    },
+    "Levofloxacin": {
+     "Piperacillin-Tazobactam": 0.1567,
+     "Tobramycin": 0.3988,
+     "Norfloxacin": 1.0,
+     "Ciprofloxacin": 1.0,
+     "Levofloxacin": 1.0,
+     "Ceftriaxone": 0.5292,
+     "Cefpodoxime": 0.5108,
+     "Cefepime": 0.321,
+     "Ceftazidime": 0.3512,
+     "Cotrimoxazole": 0.2806,
+     "Amoxicillin-Clavulanic acid": 0.2739,
+     "Ampicillin-Amoxicillin": 0.4098
+    },
+    "Ceftriaxone": {
+     "Piperacillin-Tazobactam": 0.1778,
+     "Tobramycin": 0.4213,
+     "Norfloxacin": 0.4539,
+     "Ciprofloxacin": 0.5219,
+     "Levofloxacin": 0.5292,
+     "Ceftriaxone": 1.0,
+     "Cefpodoxime": 0.8708,
+     "Cefepime": 0.5086,
+     "Ceftazidime": 0.6551,
+     "Cotrimoxazole": 0.3002,
+     "Amoxicillin-Clavulanic acid": 0.3127,
+     "Ampicillin-Amoxicillin": 0.4413
+    },
+    "Cefpodoxime": {
+     "Piperacillin-Tazobactam": 0.2484,
+     "Tobramycin": 0.3801,
+     "Norfloxacin": 0.4283,
+     "Ciprofloxacin": 0.5104,
+     "Levofloxacin": 0.5108,
+     "Ceftriaxone": 0.8708,
+     "Cefpodoxime": 1.0,
+     "Cefepime": 0.4056,
+     "Ceftazidime": 0.5438,
+     "Cotrimoxazole": 0.3223,
+     "Amoxicillin-Clavulanic acid": 0.4394,
+     "Ampicillin-Amoxicillin": 0.567
+    },
+    "Cefepime": {
+     "Piperacillin-Tazobactam": 0.2257,
+     "Tobramycin": 0.3163,
+     "Norfloxacin": 0.3087,
+     "Ciprofloxacin": 0.3177,
+     "Levofloxacin": 0.321,
+     "Ceftriaxone": 0.5086,
+     "Cefpodoxime": 0.4056,
+     "Cefepime": 1.0,
+     "Ceftazidime": 0.7119,
+     "Cotrimoxazole": 0.152,
+     "Amoxicillin-Clavulanic acid": 0.3048,
+     "Ampicillin-Amoxicillin": 0.2285
+    },
+    "Ceftazidime": {
+     "Piperacillin-Tazobactam": 0.2573,
+     "Tobramycin": 0.3363,
+     "Norfloxacin": 0.3147,
+     "Ciprofloxacin": 0.3527,
+     "Levofloxacin": 0.3512,
+     "Ceftriaxone": 0.6551,
+     "Cefpodoxime": 0.5438,
+     "Cefepime": 0.7119,
+     "Ceftazidime": 1.0,
+     "Cotrimoxazole": 0.1503,
+     "Amoxicillin-Clavulanic acid": 0.3471,
+     "Ampicillin-Amoxicillin": 0.2879
+    },
+    "Cotrimoxazole": {
+     "Piperacillin-Tazobactam": 0.2088,
+     "Tobramycin": 0.2832,
+     "Norfloxacin": 0.2793,
+     "Ciprofloxacin": 0.2764,
+     "Levofloxacin": 0.2806,
+     "Ceftriaxone": 0.3002,
+     "Cefpodoxime": 0.3223,
+     "Cefepime": 0.152,
+     "Ceftazidime": 0.1503,
+     "Cotrimoxazole": 1.0,
+     "Amoxicillin-Clavulanic acid": 0.2398,
+     "Ampicillin-Amoxicillin": 0.467
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Piperacillin-Tazobactam": 0.4726,
+     "Tobramycin": 0.3818,
+     "Norfloxacin": 0.2242,
+     "Ciprofloxacin": 0.2711,
+     "Levofloxacin": 0.2739,
+     "Ceftriaxone": 0.3127,
+     "Cefpodoxime": 0.4394,
+     "Cefepime": 0.3048,
+     "Ceftazidime": 0.3471,
+     "Cotrimoxazole": 0.2398,
+     "Amoxicillin-Clavulanic acid": 1.0,
+     "Ampicillin-Amoxicillin": 0.4808
+    },
+    "Ampicillin-Amoxicillin": {
+     "Piperacillin-Tazobactam": 0.2179,
+     "Tobramycin": 0.303,
+     "Norfloxacin": 0.4167,
+     "Ciprofloxacin": 0.4097,
+     "Levofloxacin": 0.4098,
+     "Ceftriaxone": 0.4413,
+     "Cefpodoxime": 0.567,
+     "Cefepime": 0.2285,
+     "Ceftazidime": 0.2879,
+     "Cotrimoxazole": 0.467,
+     "Amoxicillin-Clavulanic acid": 0.4808,
+     "Ampicillin-Amoxicillin": 1.0
+    }
+   },
+   "n_matrix": {
+    "Piperacillin-Tazobactam": {
+     "Piperacillin-Tazobactam": 4799,
+     "Tobramycin": 4747,
+     "Norfloxacin": 1417,
+     "Ciprofloxacin": 4734,
+     "Levofloxacin": 4725,
+     "Ceftriaxone": 4773,
+     "Cefpodoxime": 1966,
+     "Cefepime": 4721,
+     "Ceftazidime": 4696,
+     "Cotrimoxazole": 4711,
+     "Amoxicillin-Clavulanic acid": 4666,
+     "Ampicillin-Amoxicillin": 4729
+    },
+    "Tobramycin": {
+     "Piperacillin-Tazobactam": 4747,
+     "Tobramycin": 4876,
+     "Norfloxacin": 1477,
+     "Ciprofloxacin": 4807,
+     "Levofloxacin": 4806,
+     "Ceftriaxone": 4850,
+     "Cefpodoxime": 2039,
+     "Cefepime": 4811,
+     "Ceftazidime": 4781,
+     "Cotrimoxazole": 4805,
+     "Amoxicillin-Clavulanic acid": 4745,
+     "Ampicillin-Amoxicillin": 4810
+    },
+    "Norfloxacin": {
+     "Piperacillin-Tazobactam": 1417,
+     "Tobramycin": 1477,
+     "Norfloxacin": 1488,
+     "Ciprofloxacin": 1486,
+     "Levofloxacin": 1488,
+     "Ceftriaxone": 1479,
+     "Cefpodoxime": 1477,
+     "Cefepime": 1472,
+     "Ceftazidime": 1471,
+     "Cotrimoxazole": 1473,
+     "Amoxicillin-Clavulanic acid": 1466,
+     "Ampicillin-Amoxicillin": 1484
+    },
+    "Ciprofloxacin": {
+     "Piperacillin-Tazobactam": 4734,
+     "Tobramycin": 4807,
+     "Norfloxacin": 1486,
+     "Ciprofloxacin": 4911,
+     "Levofloxacin": 4856,
+     "Ceftriaxone": 4899,
+     "Cefpodoxime": 2038,
+     "Cefepime": 4825,
+     "Ceftazidime": 4766,
+     "Cotrimoxazole": 4819,
+     "Amoxicillin-Clavulanic acid": 4772,
+     "Ampicillin-Amoxicillin": 4798
+    },
+    "Levofloxacin": {
+     "Piperacillin-Tazobactam": 4725,
+     "Tobramycin": 4806,
+     "Norfloxacin": 1488,
+     "Ciprofloxacin": 4856,
+     "Levofloxacin": 4858,
+     "Ceftriaxone": 4846,
+     "Cefpodoxime": 2033,
+     "Cefepime": 4776,
+     "Ceftazidime": 4765,
+     "Cotrimoxazole": 4778,
+     "Amoxicillin-Clavulanic acid": 4721,
+     "Ampicillin-Amoxicillin": 4797
+    },
+    "Ceftriaxone": {
+     "Piperacillin-Tazobactam": 4773,
+     "Tobramycin": 4850,
+     "Norfloxacin": 1479,
+     "Ciprofloxacin": 4899,
+     "Levofloxacin": 4846,
+     "Ceftriaxone": 4961,
+     "Cefpodoxime": 2054,
+     "Cefepime": 4869,
+     "Ceftazidime": 4805,
+     "Cotrimoxazole": 4862,
+     "Amoxicillin-Clavulanic acid": 4811,
+     "Ampicillin-Amoxicillin": 4840
+    },
+    "Cefpodoxime": {
+     "Piperacillin-Tazobactam": 1966,
+     "Tobramycin": 2039,
+     "Norfloxacin": 1477,
+     "Ciprofloxacin": 2038,
+     "Levofloxacin": 2033,
+     "Ceftriaxone": 2054,
+     "Cefpodoxime": 2075,
+     "Cefepime": 2000,
+     "Ceftazidime": 1988,
+     "Cotrimoxazole": 2038,
+     "Amoxicillin-Clavulanic acid": 2008,
+     "Ampicillin-Amoxicillin": 2066
+    },
+    "Cefepime": {
+     "Piperacillin-Tazobactam": 4721,
+     "Tobramycin": 4811,
+     "Norfloxacin": 1472,
+     "Ciprofloxacin": 4825,
+     "Levofloxacin": 4776,
+     "Ceftriaxone": 4869,
+     "Cefpodoxime": 2000,
+     "Cefepime": 4890,
+     "Ceftazidime": 4768,
+     "Cotrimoxazole": 4813,
+     "Amoxicillin-Clavulanic acid": 4760,
+     "Ampicillin-Amoxicillin": 4770
+    },
+    "Ceftazidime": {
+     "Piperacillin-Tazobactam": 4696,
+     "Tobramycin": 4781,
+     "Norfloxacin": 1471,
+     "Ciprofloxacin": 4766,
+     "Levofloxacin": 4765,
+     "Ceftriaxone": 4805,
+     "Cefpodoxime": 1988,
+     "Cefepime": 4768,
+     "Ceftazidime": 4822,
+     "Cotrimoxazole": 4757,
+     "Amoxicillin-Clavulanic acid": 4688,
+     "Ampicillin-Amoxicillin": 4754
+    },
+    "Cotrimoxazole": {
+     "Piperacillin-Tazobactam": 4711,
+     "Tobramycin": 4805,
+     "Norfloxacin": 1473,
+     "Ciprofloxacin": 4819,
+     "Levofloxacin": 4778,
+     "Ceftriaxone": 4862,
+     "Cefpodoxime": 2038,
+     "Cefepime": 4813,
+     "Ceftazidime": 4757,
+     "Cotrimoxazole": 4888,
+     "Amoxicillin-Clavulanic acid": 4751,
+     "Ampicillin-Amoxicillin": 4797
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Piperacillin-Tazobactam": 4666,
+     "Tobramycin": 4745,
+     "Norfloxacin": 1466,
+     "Ciprofloxacin": 4772,
+     "Levofloxacin": 4721,
+     "Ceftriaxone": 4811,
+     "Cefpodoxime": 2008,
+     "Cefepime": 4760,
+     "Ceftazidime": 4688,
+     "Cotrimoxazole": 4751,
+     "Amoxicillin-Clavulanic acid": 4826,
+     "Ampicillin-Amoxicillin": 4730
+    },
+    "Ampicillin-Amoxicillin": {
+     "Piperacillin-Tazobactam": 4729,
+     "Tobramycin": 4810,
+     "Norfloxacin": 1484,
+     "Ciprofloxacin": 4798,
+     "Levofloxacin": 4797,
+     "Ceftriaxone": 4840,
+     "Cefpodoxime": 2066,
+     "Cefepime": 4770,
+     "Ceftazidime": 4754,
+     "Cotrimoxazole": 4797,
+     "Amoxicillin-Clavulanic acid": 4730,
+     "Ampicillin-Amoxicillin": 4866
+    }
+   },
+   "top15": [
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Levofloxacin",
+     "phi": 1.0,
+     "n": 4856,
+     "prev_1": 0.2771828665568369,
+     "prev_2": 0.2771828665568369
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Norfloxacin",
+     "phi": 1.0,
+     "n": 1486,
+     "prev_1": 0.2503364737550471,
+     "prev_2": 0.2503364737550471
+    },
+    {
+     "drug_1": "Levofloxacin",
+     "drug_2": "Norfloxacin",
+     "phi": 1.0,
+     "n": 1488,
+     "prev_1": 0.25,
+     "prev_2": 0.25
+    },
+    {
+     "drug_1": "Ceftriaxone",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.8708047723099078,
+     "n": 2054,
+     "prev_1": 0.35004868549172347,
+     "prev_2": 0.41528724440116843
+    },
+    {
+     "drug_1": "Cefepime",
+     "drug_2": "Ceftazidime",
+     "phi": 0.7118995232951426,
+     "n": 4768,
+     "prev_1": 0.06963087248322147,
+     "prev_2": 0.09773489932885907
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.6551243255849017,
+     "n": 4805,
+     "prev_1": 0.10301768990634755,
+     "prev_2": 0.20686784599375652
+    },
+    {
+     "drug_1": "Ampicillin-Amoxicillin",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.5670151513709656,
+     "n": 2066,
+     "prev_1": 0.6364956437560504,
+     "prev_2": 0.42255566311713455
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.543819015521557,
+     "n": 1988,
+     "prev_1": 0.16348088531187122,
+     "prev_2": 0.397887323943662
+    },
+    {
+     "drug_1": "Levofloxacin",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.5292071872918924,
+     "n": 4846,
+     "prev_1": 0.27713578208832024,
+     "prev_2": 0.2162608336772596
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.5218847697665584,
+     "n": 4899,
+     "prev_1": 0.27924066135946113,
+     "prev_2": 0.21392120840987958
+    },
+    {
+     "drug_1": "Levofloxacin",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.5107937057044443,
+     "n": 2033,
+     "prev_1": 0.3630103295622233,
+     "prev_2": 0.41219872110182
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.5103884267517779,
+     "n": 2038,
+     "prev_1": 0.3631010794896958,
+     "prev_2": 0.41069676153091267
+    },
+    {
+     "drug_1": "Cefepime",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.508553257483157,
+     "n": 4869,
+     "prev_1": 0.06880262887656603,
+     "prev_2": 0.20538098172109262
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ampicillin-Amoxicillin",
+     "phi": 0.48076308536188717,
+     "n": 4730,
+     "prev_1": 0.24735729386892177,
+     "prev_2": 0.5871035940803383
+    },
+    {
+     "drug_1": "Piperacillin-Tazobactam",
+     "drug_2": "Amoxicillin-Clavulanic acid",
+     "phi": 0.4725706935621959,
+     "n": 4666,
+     "prev_1": 0.06558079725675096,
+     "prev_2": 0.23446206600942993
+    }
+   ],
+   "class_means": {
+    "within_class": 0.6555853976512726,
+    "between_class": 0.32694903613547116,
+    "beta_lactam_superblock": 0.4145243133680959,
+    "blocks": {
+     "Aminoglycoside vs Cephalosporin": {
+      "mean_phi": 0.3634988103899903,
+      "n_pairs": 4
+     },
+     "Aminoglycoside vs Fluoroquinolone": {
+      "mean_phi": 0.38804950193292154,
+      "n_pairs": 3
+     },
+     "Aminoglycoside vs Penicillin/BLI": {
+      "mean_phi": 0.29504753467111927,
+      "n_pairs": 3
+     },
+     "Aminoglycoside vs TMP-SMX": {
+      "mean_phi": 0.283193767567593,
+      "n_pairs": 1
+     },
+     "Cephalosporin vs Cephalosporin": {
+      "mean_phi": 0.6159591250782879,
+      "n_pairs": 6
+     },
+     "Cephalosporin vs Fluoroquinolone": {
+      "mean_phi": 0.41002963299400447,
+      "n_pairs": 12
+     },
+     "Cephalosporin vs Penicillin/BLI": {
+      "mean_phi": 0.31983215074289545,
+      "n_pairs": 12
+     },
+     "Cephalosporin vs TMP-SMX": {
+      "mean_phi": 0.23122385138098372,
+      "n_pairs": 4
+     },
+     "Fluoroquinolone vs Fluoroquinolone": {
+      "mean_phi": 1.0,
+      "n_pairs": 3
+     },
+     "Fluoroquinolone vs Penicillin/BLI": {
+      "mean_phi": 0.2703979522508689,
+      "n_pairs": 9
+     },
+     "Fluoroquinolone vs TMP-SMX": {
+      "mean_phi": 0.2787854462872808,
+      "n_pairs": 3
+     },
+     "Penicillin/BLI vs Penicillin/BLI": {
+      "mean_phi": 0.3904233404485143,
+      "n_pairs": 3
+     },
+     "Penicillin/BLI vs TMP-SMX": {
+      "mean_phi": 0.3051977042964583,
+      "n_pairs": 3
+     }
+    }
+   },
+   "chaining_candidates": [
+    {
+     "upstream_candidate": "Ceftriaxone",
+     "downstream": "Ceftazidime",
+     "phi": 0.6551243255849017,
+     "n": 4805,
+     "prev_upstream": 0.20686784599375652,
+     "prev_downstream": 0.10301768990634755,
+     "prev_ratio": 2.008080808080808,
+     "phi_max": 0.6635753527013294
+    },
+    {
+     "upstream_candidate": "Ampicillin-Amoxicillin",
+     "downstream": "Cefpodoxime",
+     "phi": 0.5670151513709656,
+     "n": 2066,
+     "prev_upstream": 0.6364956437560504,
+     "prev_downstream": 0.42255566311713455,
+     "prev_ratio": 1.5063001145475374,
+     "phi_max": 0.6464634745687524
+    },
+    {
+     "upstream_candidate": "Cefpodoxime",
+     "downstream": "Ceftazidime",
+     "phi": 0.543819015521557,
+     "n": 1988,
+     "prev_upstream": 0.397887323943662,
+     "prev_downstream": 0.16348088531187122,
+     "prev_ratio": 2.433846153846154,
+     "phi_max": 0.543819015521557
+    },
+    {
+     "upstream_candidate": "Ceftriaxone",
+     "downstream": "Cefepime",
+     "phi": 0.508553257483157,
+     "n": 4869,
+     "prev_upstream": 0.20538098172109262,
+     "prev_downstream": 0.06880262887656603,
+     "prev_ratio": 2.9850746268656714,
+     "phi_max": 0.5346640828758034
+    }
+   ]
+  },
+  "driams_b": {
+   "n_ecoli_rows": 838,
+   "drugs": [
+    "Amoxicillin-Clavulanic acid",
+    "Ampicillin",
+    "Cefuroxime",
+    "Ciprofloxacin",
+    "Norfloxacin",
+    "Cotrimoxazol"
+   ],
+   "n_drugs": 6,
+   "drug_summary": {
+    "Amoxicillin-Clavulanic acid": {
+     "n": 213,
+     "n_R": 61,
+     "prev": 0.2863849765258216
+    },
+    "Ampicillin": {
+     "n": 213,
+     "n_R": 136,
+     "prev": 0.6384976525821596
+    },
+    "Cefuroxime": {
+     "n": 213,
+     "n_R": 54,
+     "prev": 0.2535211267605634
+    },
+    "Ciprofloxacin": {
+     "n": 213,
+     "n_R": 58,
+     "prev": 0.27230046948356806
+    },
+    "Norfloxacin": {
+     "n": 213,
+     "n_R": 69,
+     "prev": 0.323943661971831
+    },
+    "Cotrimoxazol": {
+     "n": 213,
+     "n_R": 66,
+     "prev": 0.30985915492957744
+    }
+   },
+   "cluster_order": [
+    "Cotrimoxazol",
+    "Ampicillin",
+    "Ciprofloxacin",
+    "Norfloxacin",
+    "Amoxicillin-Clavulanic acid",
+    "Cefuroxime"
+   ],
+   "phi_matrix": {
+    "Cotrimoxazol": {
+     "Cotrimoxazol": 1.0,
+     "Ampicillin": 0.2929,
+     "Ciprofloxacin": 0.2059,
+     "Norfloxacin": 0.2521,
+     "Amoxicillin-Clavulanic acid": 0.092,
+     "Cefuroxime": 0.0996
+    },
+    "Ampicillin": {
+     "Cotrimoxazol": 0.2929,
+     "Ampicillin": 1.0,
+     "Ciprofloxacin": 0.2847,
+     "Norfloxacin": 0.3538,
+     "Amoxicillin-Clavulanic acid": 0.4767,
+     "Cefuroxime": 0.4385
+    },
+    "Ciprofloxacin": {
+     "Cotrimoxazol": 0.2059,
+     "Ampicillin": 0.2847,
+     "Ciprofloxacin": 1.0,
+     "Norfloxacin": 0.8837,
+     "Amoxicillin-Clavulanic acid": 0.4524,
+     "Cefuroxime": 0.5163
+    },
+    "Norfloxacin": {
+     "Cotrimoxazol": 0.2521,
+     "Ampicillin": 0.3538,
+     "Ciprofloxacin": 0.8837,
+     "Norfloxacin": 1.0,
+     "Amoxicillin-Clavulanic acid": 0.4713,
+     "Cefuroxime": 0.5421
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Cotrimoxazol": 0.092,
+     "Ampicillin": 0.4767,
+     "Ciprofloxacin": 0.4524,
+     "Norfloxacin": 0.4713,
+     "Amoxicillin-Clavulanic acid": 1.0,
+     "Cefuroxime": 0.7528
+    },
+    "Cefuroxime": {
+     "Cotrimoxazol": 0.0996,
+     "Ampicillin": 0.4385,
+     "Ciprofloxacin": 0.5163,
+     "Norfloxacin": 0.5421,
+     "Amoxicillin-Clavulanic acid": 0.7528,
+     "Cefuroxime": 1.0
+    }
+   },
+   "n_matrix": {
+    "Cotrimoxazol": {
+     "Cotrimoxazol": 213,
+     "Ampicillin": 213,
+     "Ciprofloxacin": 213,
+     "Norfloxacin": 213,
+     "Amoxicillin-Clavulanic acid": 213,
+     "Cefuroxime": 213
+    },
+    "Ampicillin": {
+     "Cotrimoxazol": 213,
+     "Ampicillin": 213,
+     "Ciprofloxacin": 213,
+     "Norfloxacin": 213,
+     "Amoxicillin-Clavulanic acid": 213,
+     "Cefuroxime": 213
+    },
+    "Ciprofloxacin": {
+     "Cotrimoxazol": 213,
+     "Ampicillin": 213,
+     "Ciprofloxacin": 213,
+     "Norfloxacin": 213,
+     "Amoxicillin-Clavulanic acid": 213,
+     "Cefuroxime": 213
+    },
+    "Norfloxacin": {
+     "Cotrimoxazol": 213,
+     "Ampicillin": 213,
+     "Ciprofloxacin": 213,
+     "Norfloxacin": 213,
+     "Amoxicillin-Clavulanic acid": 213,
+     "Cefuroxime": 213
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Cotrimoxazol": 213,
+     "Ampicillin": 213,
+     "Ciprofloxacin": 213,
+     "Norfloxacin": 213,
+     "Amoxicillin-Clavulanic acid": 213,
+     "Cefuroxime": 213
+    },
+    "Cefuroxime": {
+     "Cotrimoxazol": 213,
+     "Ampicillin": 213,
+     "Ciprofloxacin": 213,
+     "Norfloxacin": 213,
+     "Amoxicillin-Clavulanic acid": 213,
+     "Cefuroxime": 213
+    }
+   },
+   "top15": [
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Norfloxacin",
+     "phi": 0.8836999865334154,
+     "n": 213,
+     "prev_1": 0.27230046948356806,
+     "prev_2": 0.323943661971831
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Cefuroxime",
+     "phi": 0.7528235472565171,
+     "n": 213,
+     "prev_1": 0.2863849765258216,
+     "prev_2": 0.2535211267605634
+    },
+    {
+     "drug_1": "Cefuroxime",
+     "drug_2": "Norfloxacin",
+     "phi": 0.5420961936944828,
+     "n": 213,
+     "prev_1": 0.2535211267605634,
+     "prev_2": 0.323943661971831
+    },
+    {
+     "drug_1": "Cefuroxime",
+     "drug_2": "Ciprofloxacin",
+     "phi": 0.516294808308999,
+     "n": 213,
+     "prev_1": 0.2535211267605634,
+     "prev_2": 0.27230046948356806
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ampicillin",
+     "phi": 0.47667133045269444,
+     "n": 213,
+     "prev_1": 0.2863849765258216,
+     "prev_2": 0.6384976525821596
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Norfloxacin",
+     "phi": 0.47133543729146543,
+     "n": 213,
+     "prev_1": 0.2863849765258216,
+     "prev_2": 0.323943661971831
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ciprofloxacin",
+     "phi": 0.4523592697519794,
+     "n": 213,
+     "prev_1": 0.2863849765258216,
+     "prev_2": 0.27230046948356806
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Cefuroxime",
+     "phi": 0.43850467329512555,
+     "n": 213,
+     "prev_1": 0.6384976525821596,
+     "prev_2": 0.2535211267605634
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Norfloxacin",
+     "phi": 0.3538068800679721,
+     "n": 213,
+     "prev_1": 0.6384976525821596,
+     "prev_2": 0.323943661971831
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Cotrimoxazol",
+     "phi": 0.29286731203758437,
+     "n": 213,
+     "prev_1": 0.6384976525821596,
+     "prev_2": 0.30985915492957744
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Ciprofloxacin",
+     "phi": 0.2846616822832857,
+     "n": 213,
+     "prev_1": 0.6384976525821596,
+     "prev_2": 0.27230046948356806
+    },
+    {
+     "drug_1": "Norfloxacin",
+     "drug_2": "Cotrimoxazol",
+     "phi": 0.25208022436307137,
+     "n": 213,
+     "prev_1": 0.323943661971831,
+     "prev_2": 0.30985915492957744
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Cotrimoxazol",
+     "phi": 0.20590590579121792,
+     "n": 213,
+     "prev_1": 0.27230046948356806,
+     "prev_2": 0.30985915492957744
+    },
+    {
+     "drug_1": "Cefuroxime",
+     "drug_2": "Cotrimoxazol",
+     "phi": 0.09959506193192953,
+     "n": 213,
+     "prev_1": 0.2535211267605634,
+     "prev_2": 0.30985915492957744
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Cotrimoxazol",
+     "phi": 0.09204429954121292,
+     "n": 213,
+     "prev_1": 0.2863849765258216,
+     "prev_2": 0.30985915492957744
+    }
+   ],
+   "class_means": {
+    "within_class": 0.6801856584930549,
+    "between_class": 0.3657211765857572,
+    "beta_lactam_superblock": 0.555999850334779,
+    "blocks": {
+     "Cephalosporin vs Fluoroquinolone": {
+      "mean_phi": 0.5291955010017408,
+      "n_pairs": 2
+     },
+     "Cephalosporin vs Penicillin/BLI": {
+      "mean_phi": 0.5956641102758213,
+      "n_pairs": 2
+     },
+     "Cephalosporin vs TMP-SMX": {
+      "mean_phi": 0.09959506193192953,
+      "n_pairs": 1
+     },
+     "Fluoroquinolone vs Fluoroquinolone": {
+      "mean_phi": 0.8836999865334154,
+      "n_pairs": 1
+     },
+     "Fluoroquinolone vs Penicillin/BLI": {
+      "mean_phi": 0.3905408173486757,
+      "n_pairs": 4
+     },
+     "Fluoroquinolone vs TMP-SMX": {
+      "mean_phi": 0.22899306507714465,
+      "n_pairs": 2
+     },
+     "Penicillin/BLI vs Penicillin/BLI": {
+      "mean_phi": 0.47667133045269444,
+      "n_pairs": 1
+     },
+     "Penicillin/BLI vs TMP-SMX": {
+      "mean_phi": 0.19245580578939864,
+      "n_pairs": 2
+     }
+    }
+   },
+   "chaining_candidates": []
+  },
+  "driams_c": {
+   "n_ecoli_rows": 927,
+   "drugs": [
+    "Amoxicillin-Clavulanic acid",
+    "Ampicillin",
+    "Ceftazidime",
+    "Ciprofloxacin",
+    "Gentamicin",
+    "Ceftriaxone",
+    "Cefuroxime",
+    "Norfloxacin",
+    "Cotrimoxazole",
+    "Cefepime"
+   ],
+   "n_drugs": 10,
+   "drug_summary": {
+    "Amoxicillin-Clavulanic acid": {
+     "n": 902,
+     "n_R": 230,
+     "prev": 0.2549889135254989
+    },
+    "Ampicillin": {
+     "n": 884,
+     "n_R": 544,
+     "prev": 0.6153846153846154
+    },
+    "Ceftazidime": {
+     "n": 915,
+     "n_R": 139,
+     "prev": 0.15191256830601094
+    },
+    "Ciprofloxacin": {
+     "n": 889,
+     "n_R": 188,
+     "prev": 0.21147356580427445
+    },
+    "Gentamicin": {
+     "n": 911,
+     "n_R": 93,
+     "prev": 0.10208562019758508
+    },
+    "Ceftriaxone": {
+     "n": 916,
+     "n_R": 148,
+     "prev": 0.1615720524017467
+    },
+    "Cefuroxime": {
+     "n": 909,
+     "n_R": 188,
+     "prev": 0.2068206820682068
+    },
+    "Norfloxacin": {
+     "n": 446,
+     "n_R": 118,
+     "prev": 0.2645739910313901
+    },
+    "Cotrimoxazole": {
+     "n": 896,
+     "n_R": 302,
+     "prev": 0.33705357142857145
+    },
+    "Cefepime": {
+     "n": 622,
+     "n_R": 113,
+     "prev": 0.18167202572347266
+    }
+   },
+   "cluster_order": [
+    "Gentamicin",
+    "Amoxicillin-Clavulanic acid",
+    "Ampicillin",
+    "Cotrimoxazole",
+    "Ciprofloxacin",
+    "Norfloxacin",
+    "Cefepime",
+    "Cefuroxime",
+    "Ceftazidime",
+    "Ceftriaxone"
+   ],
+   "phi_matrix": {
+    "Gentamicin": {
+     "Gentamicin": 1.0,
+     "Amoxicillin-Clavulanic acid": 0.2282,
+     "Ampicillin": 0.2767,
+     "Cotrimoxazole": 0.2191,
+     "Ciprofloxacin": 0.3356,
+     "Norfloxacin": 0.2785,
+     "Cefepime": 0.3895,
+     "Cefuroxime": 0.2745,
+     "Ceftazidime": 0.2698,
+     "Ceftriaxone": 0.2827
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Gentamicin": 0.2282,
+     "Amoxicillin-Clavulanic acid": 1.0,
+     "Ampicillin": 0.4843,
+     "Cotrimoxazole": 0.3137,
+     "Ciprofloxacin": 0.2557,
+     "Norfloxacin": 0.2994,
+     "Cefepime": 0.2073,
+     "Cefuroxime": 0.399,
+     "Ceftazidime": 0.3482,
+     "Ceftriaxone": 0.288
+    },
+    "Ampicillin": {
+     "Gentamicin": 0.2767,
+     "Amoxicillin-Clavulanic acid": 0.4843,
+     "Ampicillin": 1.0,
+     "Cotrimoxazole": 0.5405,
+     "Ciprofloxacin": 0.3177,
+     "Norfloxacin": 0.3112,
+     "Cefepime": 0.3451,
+     "Cefuroxime": 0.4156,
+     "Ceftazidime": 0.3453,
+     "Ceftriaxone": 0.3545
+    },
+    "Cotrimoxazole": {
+     "Gentamicin": 0.2191,
+     "Amoxicillin-Clavulanic acid": 0.3137,
+     "Ampicillin": 0.5405,
+     "Cotrimoxazole": 1.0,
+     "Ciprofloxacin": 0.2659,
+     "Norfloxacin": 0.2092,
+     "Cefepime": 0.322,
+     "Cefuroxime": 0.3176,
+     "Ceftazidime": 0.3147,
+     "Ceftriaxone": 0.2979
+    },
+    "Ciprofloxacin": {
+     "Gentamicin": 0.3356,
+     "Amoxicillin-Clavulanic acid": 0.2557,
+     "Ampicillin": 0.3177,
+     "Cotrimoxazole": 0.2659,
+     "Ciprofloxacin": 1.0,
+     "Norfloxacin": 1.0,
+     "Cefepime": 0.4897,
+     "Cefuroxime": 0.4119,
+     "Ceftazidime": 0.3154,
+     "Ceftriaxone": 0.3442
+    },
+    "Norfloxacin": {
+     "Gentamicin": 0.2785,
+     "Amoxicillin-Clavulanic acid": 0.2994,
+     "Ampicillin": 0.3112,
+     "Cotrimoxazole": 0.2092,
+     "Ciprofloxacin": 1.0,
+     "Norfloxacin": 1.0,
+     "Cefepime": 0.3967,
+     "Cefuroxime": 0.3457,
+     "Ceftazidime": 0.2337,
+     "Ceftriaxone": 0.2582
+    },
+    "Cefepime": {
+     "Gentamicin": 0.3895,
+     "Amoxicillin-Clavulanic acid": 0.2073,
+     "Ampicillin": 0.3451,
+     "Cotrimoxazole": 0.322,
+     "Ciprofloxacin": 0.4897,
+     "Norfloxacin": 0.3967,
+     "Cefepime": 1.0,
+     "Cefuroxime": 0.7395,
+     "Ceftazidime": 0.7552,
+     "Ceftriaxone": 0.7731
+    },
+    "Cefuroxime": {
+     "Gentamicin": 0.2745,
+     "Amoxicillin-Clavulanic acid": 0.399,
+     "Ampicillin": 0.4156,
+     "Cotrimoxazole": 0.3176,
+     "Ciprofloxacin": 0.4119,
+     "Norfloxacin": 0.3457,
+     "Cefepime": 0.7395,
+     "Cefuroxime": 1.0,
+     "Ceftazidime": 0.817,
+     "Ceftriaxone": 0.8563
+    },
+    "Ceftazidime": {
+     "Gentamicin": 0.2698,
+     "Amoxicillin-Clavulanic acid": 0.3482,
+     "Ampicillin": 0.3453,
+     "Cotrimoxazole": 0.3147,
+     "Ciprofloxacin": 0.3154,
+     "Norfloxacin": 0.2337,
+     "Cefepime": 0.7552,
+     "Cefuroxime": 0.817,
+     "Ceftazidime": 1.0,
+     "Ceftriaxone": 0.8889
+    },
+    "Ceftriaxone": {
+     "Gentamicin": 0.2827,
+     "Amoxicillin-Clavulanic acid": 0.288,
+     "Ampicillin": 0.3545,
+     "Cotrimoxazole": 0.2979,
+     "Ciprofloxacin": 0.3442,
+     "Norfloxacin": 0.2582,
+     "Cefepime": 0.7731,
+     "Cefuroxime": 0.8563,
+     "Ceftazidime": 0.8889,
+     "Ceftriaxone": 1.0
+    }
+   },
+   "n_matrix": {
+    "Gentamicin": {
+     "Gentamicin": 911,
+     "Amoxicillin-Clavulanic acid": 902,
+     "Ampicillin": 871,
+     "Cotrimoxazole": 886,
+     "Ciprofloxacin": 886,
+     "Norfloxacin": 443,
+     "Cefepime": 609,
+     "Cefuroxime": 900,
+     "Ceftazidime": 906,
+     "Ceftriaxone": 900
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Gentamicin": 902,
+     "Amoxicillin-Clavulanic acid": 902,
+     "Ampicillin": 865,
+     "Cotrimoxazole": 886,
+     "Ciprofloxacin": 883,
+     "Norfloxacin": 443,
+     "Cefepime": 606,
+     "Cefuroxime": 891,
+     "Ceftazidime": 897,
+     "Ceftriaxone": 891
+    },
+    "Ampicillin": {
+     "Gentamicin": 871,
+     "Amoxicillin-Clavulanic acid": 865,
+     "Ampicillin": 884,
+     "Cotrimoxazole": 869,
+     "Ciprofloxacin": 861,
+     "Norfloxacin": 432,
+     "Cefepime": 592,
+     "Cefuroxime": 877,
+     "Ceftazidime": 877,
+     "Ceftriaxone": 884
+    },
+    "Cotrimoxazole": {
+     "Gentamicin": 886,
+     "Amoxicillin-Clavulanic acid": 886,
+     "Ampicillin": 869,
+     "Cotrimoxazole": 896,
+     "Ciprofloxacin": 876,
+     "Norfloxacin": 442,
+     "Cefepime": 603,
+     "Cefuroxime": 882,
+     "Ceftazidime": 888,
+     "Ceftriaxone": 889
+    },
+    "Ciprofloxacin": {
+     "Gentamicin": 886,
+     "Amoxicillin-Clavulanic acid": 883,
+     "Ampicillin": 861,
+     "Cotrimoxazole": 876,
+     "Ciprofloxacin": 889,
+     "Norfloxacin": 446,
+     "Cefepime": 599,
+     "Cefuroxime": 882,
+     "Ceftazidime": 888,
+     "Ceftriaxone": 882
+    },
+    "Norfloxacin": {
+     "Gentamicin": 443,
+     "Amoxicillin-Clavulanic acid": 443,
+     "Ampicillin": 432,
+     "Cotrimoxazole": 442,
+     "Ciprofloxacin": 446,
+     "Norfloxacin": 446,
+     "Cefepime": 156,
+     "Cefuroxime": 439,
+     "Ceftazidime": 445,
+     "Ceftriaxone": 439
+    },
+    "Cefepime": {
+     "Gentamicin": 609,
+     "Amoxicillin-Clavulanic acid": 606,
+     "Ampicillin": 592,
+     "Cotrimoxazole": 603,
+     "Ciprofloxacin": 599,
+     "Norfloxacin": 156,
+     "Cefepime": 622,
+     "Cefuroxime": 604,
+     "Ceftazidime": 610,
+     "Ceftriaxone": 611
+    },
+    "Cefuroxime": {
+     "Gentamicin": 900,
+     "Amoxicillin-Clavulanic acid": 891,
+     "Ampicillin": 877,
+     "Cotrimoxazole": 882,
+     "Ciprofloxacin": 882,
+     "Norfloxacin": 439,
+     "Cefepime": 604,
+     "Cefuroxime": 909,
+     "Ceftazidime": 909,
+     "Ceftriaxone": 909
+    },
+    "Ceftazidime": {
+     "Gentamicin": 906,
+     "Amoxicillin-Clavulanic acid": 897,
+     "Ampicillin": 877,
+     "Cotrimoxazole": 888,
+     "Ciprofloxacin": 888,
+     "Norfloxacin": 445,
+     "Cefepime": 610,
+     "Cefuroxime": 909,
+     "Ceftazidime": 915,
+     "Ceftriaxone": 909
+    },
+    "Ceftriaxone": {
+     "Gentamicin": 900,
+     "Amoxicillin-Clavulanic acid": 891,
+     "Ampicillin": 884,
+     "Cotrimoxazole": 889,
+     "Ciprofloxacin": 882,
+     "Norfloxacin": 439,
+     "Cefepime": 611,
+     "Cefuroxime": 909,
+     "Ceftazidime": 909,
+     "Ceftriaxone": 916
+    }
+   },
+   "top15": [
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Norfloxacin",
+     "phi": 1.0,
+     "n": 446,
+     "prev_1": 0.2645739910313901,
+     "prev_2": 0.2645739910313901
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.888924690714059,
+     "n": 909,
+     "prev_1": 0.15291529152915292,
+     "prev_2": 0.1628162816281628
+    },
+    {
+     "drug_1": "Ceftriaxone",
+     "drug_2": "Cefuroxime",
+     "phi": 0.8562721515606646,
+     "n": 909,
+     "prev_1": 0.1628162816281628,
+     "prev_2": 0.2068206820682068
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Cefuroxime",
+     "phi": 0.8169588697143109,
+     "n": 909,
+     "prev_1": 0.15291529152915292,
+     "prev_2": 0.2068206820682068
+    },
+    {
+     "drug_1": "Ceftriaxone",
+     "drug_2": "Cefepime",
+     "phi": 0.7730555606939654,
+     "n": 611,
+     "prev_1": 0.24058919803600654,
+     "prev_2": 0.176759410801964
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Cefepime",
+     "phi": 0.7551615348950669,
+     "n": 610,
+     "prev_1": 0.2262295081967213,
+     "prev_2": 0.17704918032786884
+    },
+    {
+     "drug_1": "Cefuroxime",
+     "drug_2": "Cefepime",
+     "phi": 0.7395178981474486,
+     "n": 604,
+     "prev_1": 0.2847682119205298,
+     "prev_2": 0.17880794701986755
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Cotrimoxazole",
+     "phi": 0.5405255738988406,
+     "n": 869,
+     "prev_1": 0.6087456846950517,
+     "prev_2": 0.3475258918296893
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Cefepime",
+     "phi": 0.4897408294752152,
+     "n": 599,
+     "prev_1": 0.21535893155258765,
+     "prev_2": 0.18196994991652754
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ampicillin",
+     "phi": 0.484324972167621,
+     "n": 865,
+     "prev_1": 0.2658959537572254,
+     "prev_2": 0.6069364161849711
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Cefuroxime",
+     "phi": 0.41564410881145153,
+     "n": 877,
+     "prev_1": 0.6123147092360319,
+     "prev_2": 0.21436716077537057
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Cefuroxime",
+     "phi": 0.41187381200564105,
+     "n": 882,
+     "prev_1": 0.21315192743764172,
+     "prev_2": 0.21315192743764172
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Cefuroxime",
+     "phi": 0.39895759183975,
+     "n": 891,
+     "prev_1": 0.25813692480359146,
+     "prev_2": 0.21099887766554434
+    },
+    {
+     "drug_1": "Norfloxacin",
+     "drug_2": "Cefepime",
+     "phi": 0.3966677681066726,
+     "n": 156,
+     "prev_1": 0.3782051282051282,
+     "prev_2": 0.4423076923076923
+    },
+    {
+     "drug_1": "Gentamicin",
+     "drug_2": "Cefepime",
+     "phi": 0.38946711432567116,
+     "n": 609,
+     "prev_1": 0.10016420361247948,
+     "prev_2": 0.18555008210180624
+    }
+   ],
+   "class_means": {
+    "within_class": 0.789276959736642,
+    "between_class": 0.319421459577428,
+    "beta_lactam_superblock": 0.5344866518509915,
+    "blocks": {
+     "Aminoglycoside vs Cephalosporin": {
+      "mean_phi": 0.30410894939868355,
+      "n_pairs": 4
+     },
+     "Aminoglycoside vs Fluoroquinolone": {
+      "mean_phi": 0.30706684917181504,
+      "n_pairs": 2
+     },
+     "Aminoglycoside vs Penicillin/BLI": {
+      "mean_phi": 0.2524468018917427,
+      "n_pairs": 2
+     },
+     "Aminoglycoside vs TMP-SMX": {
+      "mean_phi": 0.21905405203386638,
+      "n_pairs": 1
+     },
+     "Cephalosporin vs Cephalosporin": {
+      "mean_phi": 0.804981784287586,
+      "n_pairs": 6
+     },
+     "Cephalosporin vs Fluoroquinolone": {
+      "mean_phi": 0.3494314797639177,
+      "n_pairs": 8
+     },
+     "Cephalosporin vs Penicillin/BLI": {
+      "mean_phi": 0.3378855124839669,
+      "n_pairs": 8
+     },
+     "Cephalosporin vs TMP-SMX": {
+      "mean_phi": 0.3130430162251935,
+      "n_pairs": 4
+     },
+     "Fluoroquinolone vs Fluoroquinolone": {
+      "mean_phi": 1.0,
+      "n_pairs": 1
+     },
+     "Fluoroquinolone vs Penicillin/BLI": {
+      "mean_phi": 0.2960068370056774,
+      "n_pairs": 4
+     },
+     "Fluoroquinolone vs TMP-SMX": {
+      "mean_phi": 0.23757212767827196,
+      "n_pairs": 2
+     },
+     "Penicillin/BLI vs Penicillin/BLI": {
+      "mean_phi": 0.484324972167621,
+      "n_pairs": 1
+     },
+     "Penicillin/BLI vs TMP-SMX": {
+      "mean_phi": 0.4270986231730076,
+      "n_pairs": 2
+     }
+    }
+   },
+   "chaining_candidates": [
+    {
+     "upstream_candidate": "Cefuroxime",
+     "downstream": "Cefepime",
+     "phi": 0.7395178981474486,
+     "n": 604,
+     "prev_upstream": 0.2847682119205298,
+     "prev_downstream": 0.17880794701986755,
+     "prev_ratio": 1.5925925925925928,
+     "phi_max": 0.7395178981474485
+    },
+    {
+     "upstream_candidate": "Ampicillin",
+     "downstream": "Cotrimoxazole",
+     "phi": 0.5405255738988406,
+     "n": 869,
+     "prev_upstream": 0.6087456846950517,
+     "prev_downstream": 0.3475258918296893,
+     "prev_ratio": 1.7516556291390728,
+     "phi_max": 0.5850911977559635
+    }
+   ]
+  },
+  "driams_d": {
+   "n_ecoli_rows": 2013,
+   "drugs": [
+    "Ampicillin",
+    "Amoxicillin-Clavulanic acid",
+    "Ceftazidime",
+    "Ciprofloxacin",
+    "Ceftriaxone",
+    "Cefepime",
+    "Gentamicin",
+    "Piperacillin-Tazobactam"
+   ],
+   "n_drugs": 8,
+   "drug_summary": {
+    "Ampicillin": {
+     "n": 1992,
+     "n_R": 923,
+     "prev": 0.46335341365461846
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "n": 1994,
+     "n_R": 332,
+     "prev": 0.16649949849548645
+    },
+    "Ceftazidime": {
+     "n": 1995,
+     "n_R": 178,
+     "prev": 0.08922305764411027
+    },
+    "Ciprofloxacin": {
+     "n": 1939,
+     "n_R": 371,
+     "prev": 0.19133574007220217
+    },
+    "Ceftriaxone": {
+     "n": 1994,
+     "n_R": 198,
+     "prev": 0.09929789368104312
+    },
+    "Cefepime": {
+     "n": 1996,
+     "n_R": 80,
+     "prev": 0.04008016032064128
+    },
+    "Gentamicin": {
+     "n": 1996,
+     "n_R": 160,
+     "prev": 0.08016032064128256
+    },
+    "Piperacillin-Tazobactam": {
+     "n": 1968,
+     "n_R": 90,
+     "prev": 0.04573170731707317
+    }
+   },
+   "cluster_order": [
+    "Gentamicin",
+    "Ciprofloxacin",
+    "Cefepime",
+    "Ceftazidime",
+    "Ceftriaxone",
+    "Ampicillin",
+    "Amoxicillin-Clavulanic acid",
+    "Piperacillin-Tazobactam"
+   ],
+   "phi_matrix": {
+    "Gentamicin": {
+     "Gentamicin": 1.0,
+     "Ciprofloxacin": 0.3366,
+     "Cefepime": 0.2031,
+     "Ceftazidime": 0.2313,
+     "Ceftriaxone": 0.2613,
+     "Ampicillin": 0.2551,
+     "Amoxicillin-Clavulanic acid": 0.2099,
+     "Piperacillin-Tazobactam": 0.0888
+    },
+    "Ciprofloxacin": {
+     "Gentamicin": 0.3366,
+     "Ciprofloxacin": 1.0,
+     "Cefepime": 0.3172,
+     "Ceftazidime": 0.4155,
+     "Ceftriaxone": 0.4602,
+     "Ampicillin": 0.3633,
+     "Amoxicillin-Clavulanic acid": 0.3,
+     "Piperacillin-Tazobactam": 0.1894
+    },
+    "Cefepime": {
+     "Gentamicin": 0.2031,
+     "Ciprofloxacin": 0.3172,
+     "Cefepime": 1.0,
+     "Ceftazidime": 0.6261,
+     "Ceftriaxone": 0.5945,
+     "Ampicillin": 0.215,
+     "Amoxicillin-Clavulanic acid": 0.2722,
+     "Piperacillin-Tazobactam": 0.203
+    },
+    "Ceftazidime": {
+     "Gentamicin": 0.2313,
+     "Ciprofloxacin": 0.4155,
+     "Cefepime": 0.6261,
+     "Ceftazidime": 1.0,
+     "Ceftriaxone": 0.828,
+     "Ampicillin": 0.3268,
+     "Amoxicillin-Clavulanic acid": 0.3235,
+     "Piperacillin-Tazobactam": 0.1871
+    },
+    "Ceftriaxone": {
+     "Gentamicin": 0.2613,
+     "Ciprofloxacin": 0.4602,
+     "Cefepime": 0.5945,
+     "Ceftazidime": 0.828,
+     "Ceftriaxone": 1.0,
+     "Ampicillin": 0.3477,
+     "Amoxicillin-Clavulanic acid": 0.2845,
+     "Piperacillin-Tazobactam": 0.1782
+    },
+    "Ampicillin": {
+     "Gentamicin": 0.2551,
+     "Ciprofloxacin": 0.3633,
+     "Cefepime": 0.215,
+     "Ceftazidime": 0.3268,
+     "Ceftriaxone": 0.3477,
+     "Ampicillin": 1.0,
+     "Amoxicillin-Clavulanic acid": 0.4759,
+     "Piperacillin-Tazobactam": 0.2359
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Gentamicin": 0.2099,
+     "Ciprofloxacin": 0.3,
+     "Cefepime": 0.2722,
+     "Ceftazidime": 0.3235,
+     "Ceftriaxone": 0.2845,
+     "Ampicillin": 0.4759,
+     "Amoxicillin-Clavulanic acid": 1.0,
+     "Piperacillin-Tazobactam": 0.4791
+    },
+    "Piperacillin-Tazobactam": {
+     "Gentamicin": 0.0888,
+     "Ciprofloxacin": 0.1894,
+     "Cefepime": 0.203,
+     "Ceftazidime": 0.1871,
+     "Ceftriaxone": 0.1782,
+     "Ampicillin": 0.2359,
+     "Amoxicillin-Clavulanic acid": 0.4791,
+     "Piperacillin-Tazobactam": 1.0
+    }
+   },
+   "n_matrix": {
+    "Gentamicin": {
+     "Gentamicin": 1996,
+     "Ciprofloxacin": 1939,
+     "Cefepime": 1996,
+     "Ceftazidime": 1995,
+     "Ceftriaxone": 1994,
+     "Ampicillin": 1992,
+     "Amoxicillin-Clavulanic acid": 1994,
+     "Piperacillin-Tazobactam": 1966
+    },
+    "Ciprofloxacin": {
+     "Gentamicin": 1939,
+     "Ciprofloxacin": 1939,
+     "Cefepime": 1939,
+     "Ceftazidime": 1938,
+     "Ceftriaxone": 1937,
+     "Ampicillin": 1937,
+     "Amoxicillin-Clavulanic acid": 1938,
+     "Piperacillin-Tazobactam": 1912
+    },
+    "Cefepime": {
+     "Gentamicin": 1996,
+     "Ciprofloxacin": 1939,
+     "Cefepime": 1996,
+     "Ceftazidime": 1995,
+     "Ceftriaxone": 1994,
+     "Ampicillin": 1992,
+     "Amoxicillin-Clavulanic acid": 1994,
+     "Piperacillin-Tazobactam": 1966
+    },
+    "Ceftazidime": {
+     "Gentamicin": 1995,
+     "Ciprofloxacin": 1938,
+     "Cefepime": 1995,
+     "Ceftazidime": 1995,
+     "Ceftriaxone": 1993,
+     "Ampicillin": 1991,
+     "Amoxicillin-Clavulanic acid": 1993,
+     "Piperacillin-Tazobactam": 1966
+    },
+    "Ceftriaxone": {
+     "Gentamicin": 1994,
+     "Ciprofloxacin": 1937,
+     "Cefepime": 1994,
+     "Ceftazidime": 1993,
+     "Ceftriaxone": 1994,
+     "Ampicillin": 1991,
+     "Amoxicillin-Clavulanic acid": 1993,
+     "Piperacillin-Tazobactam": 1966
+    },
+    "Ampicillin": {
+     "Gentamicin": 1992,
+     "Ciprofloxacin": 1937,
+     "Cefepime": 1992,
+     "Ceftazidime": 1991,
+     "Ceftriaxone": 1991,
+     "Ampicillin": 1992,
+     "Amoxicillin-Clavulanic acid": 1992,
+     "Piperacillin-Tazobactam": 1966
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Gentamicin": 1994,
+     "Ciprofloxacin": 1938,
+     "Cefepime": 1994,
+     "Ceftazidime": 1993,
+     "Ceftriaxone": 1993,
+     "Ampicillin": 1992,
+     "Amoxicillin-Clavulanic acid": 1994,
+     "Piperacillin-Tazobactam": 1966
+    },
+    "Piperacillin-Tazobactam": {
+     "Gentamicin": 1966,
+     "Ciprofloxacin": 1912,
+     "Cefepime": 1966,
+     "Ceftazidime": 1966,
+     "Ceftriaxone": 1966,
+     "Ampicillin": 1966,
+     "Amoxicillin-Clavulanic acid": 1966,
+     "Piperacillin-Tazobactam": 1968
+    }
+   },
+   "top15": [
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.8279666244307996,
+     "n": 1993,
+     "prev_1": 0.08881083793276467,
+     "prev_2": 0.09934771700953336
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Cefepime",
+     "phi": 0.6261350750662192,
+     "n": 1995,
+     "prev_1": 0.08922305764411027,
+     "prev_2": 0.040100250626566414
+    },
+    {
+     "drug_1": "Ceftriaxone",
+     "drug_2": "Cefepime",
+     "phi": 0.5945220580632238,
+     "n": 1994,
+     "prev_1": 0.09929789368104312,
+     "prev_2": 0.03961885656970913
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Piperacillin-Tazobactam",
+     "phi": 0.47906934227955,
+     "n": 1966,
+     "prev_1": 0.16531027466937945,
+     "prev_2": 0.04577822990844354
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Amoxicillin-Clavulanic acid",
+     "phi": 0.4758831000175976,
+     "n": 1992,
+     "prev_1": 0.46335341365461846,
+     "prev_2": 0.16666666666666666
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.4601709298511446,
+     "n": 1937,
+     "prev_1": 0.19101703665462055,
+     "prev_2": 0.09395973154362416
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Ciprofloxacin",
+     "phi": 0.4154833674747096,
+     "n": 1938,
+     "prev_1": 0.08513931888544891,
+     "prev_2": 0.1914344685242518
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Ciprofloxacin",
+     "phi": 0.3633214666190616,
+     "n": 1937,
+     "prev_1": 0.45069695405265875,
+     "prev_2": 0.19153329891584925
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.3477234770803659,
+     "n": 1991,
+     "prev_1": 0.4630838774485183,
+     "prev_2": 0.09944751381215469
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Gentamicin",
+     "phi": 0.33660476090733465,
+     "n": 1939,
+     "prev_1": 0.19133574007220217,
+     "prev_2": 0.07065497679216091
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Ceftazidime",
+     "phi": 0.32680096212393966,
+     "n": 1991,
+     "prev_1": 0.4630838774485183,
+     "prev_2": 0.08940231039678553
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ceftazidime",
+     "phi": 0.32353689391351126,
+     "n": 1993,
+     "prev_1": 0.16608128449573506,
+     "prev_2": 0.08931259407927747
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Cefepime",
+     "phi": 0.3171861438155773,
+     "n": 1939,
+     "prev_1": 0.19133574007220217,
+     "prev_2": 0.038679731820526045
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ciprofloxacin",
+     "phi": 0.3000229914879144,
+     "n": 1938,
+     "prev_1": 0.16305469556243551,
+     "prev_2": 0.1914344685242518
+    },
+    {
+     "drug_1": "Amoxicillin-Clavulanic acid",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.28448003251175025,
+     "n": 1993,
+     "prev_1": 0.16608128449573506,
+     "prev_2": 0.09934771700953336
+    }
+   ],
+   "class_means": {
+    "within_class": 0.5399206818860036,
+    "between_class": 0.2713464487698852,
+    "beta_lactam_superblock": 0.3718343899775733,
+    "blocks": {
+     "Aminoglycoside vs Cephalosporin": {
+      "mean_phi": 0.23188257695956635,
+      "n_pairs": 3
+     },
+     "Aminoglycoside vs Fluoroquinolone": {
+      "mean_phi": 0.33660476090733465,
+      "n_pairs": 1
+     },
+     "Aminoglycoside vs Penicillin/BLI": {
+      "mean_phi": 0.18458484160917568,
+      "n_pairs": 3
+     },
+     "Cephalosporin vs Cephalosporin": {
+      "mean_phi": 0.6828745858534142,
+      "n_pairs": 3
+     },
+     "Cephalosporin vs Fluoroquinolone": {
+      "mean_phi": 0.39761348038047717,
+      "n_pairs": 3
+     },
+     "Cephalosporin vs Penicillin/BLI": {
+      "mean_phi": 0.25977686203861966,
+      "n_pairs": 9
+     },
+     "Fluoroquinolone vs Penicillin/BLI": {
+      "mean_phi": 0.2842608856116353,
+      "n_pairs": 3
+     },
+     "Penicillin/BLI vs Penicillin/BLI": {
+      "mean_phi": 0.3969667779185931,
+      "n_pairs": 3
+     }
+    }
+   },
+   "chaining_candidates": [
+    {
+     "upstream_candidate": "Ceftazidime",
+     "downstream": "Cefepime",
+     "phi": 0.6261350750662192,
+     "n": 1995,
+     "prev_upstream": 0.08922305764411027,
+     "prev_downstream": 0.040100250626566414,
+     "prev_ratio": 2.225,
+     "phi_max": 0.6530223821461928
+    },
+    {
+     "upstream_candidate": "Ceftriaxone",
+     "downstream": "Cefepime",
+     "phi": 0.5945220580632238,
+     "n": 1994,
+     "prev_upstream": 0.09929789368104312,
+     "prev_downstream": 0.03961885656970913,
+     "prev_ratio": 2.5063291139240502,
+     "phi_max": 0.6117158415490112
+    }
+   ]
+  },
+  "pooled": {
+   "n_ecoli_rows": 11098,
+   "drugs": [
+    "Piperacillin-Tazobactam",
+    "Ciprofloxacin",
+    "Cefepime",
+    "Cotrimoxazole",
+    "Ceftazidime",
+    "Amikacin",
+    "Levofloxacin",
+    "Tobramycin",
+    "Ceftriaxone",
+    "Amoxicillin-Clavulanic acid",
+    "Ampicillin",
+    "Cefpodoxime",
+    "Norfloxacin",
+    "Fosfomycin",
+    "Gentamicin",
+    "Cefuroxime"
+   ],
+   "n_drugs": 16,
+   "drug_summary": {
+    "Piperacillin-Tazobactam": {
+     "n": 7603,
+     "n_R": 486,
+     "prev": 0.06392213599894779
+    },
+    "Ciprofloxacin": {
+     "n": 7952,
+     "n_R": 1988,
+     "prev": 0.25
+    },
+    "Cefepime": {
+     "n": 7721,
+     "n_R": 571,
+     "prev": 0.07395415101670769
+    },
+    "Cotrimoxazole": {
+     "n": 6515,
+     "n_R": 2481,
+     "prev": 0.3808135072908672
+    },
+    "Ceftazidime": {
+     "n": 7945,
+     "n_R": 868,
+     "prev": 0.1092511013215859
+    },
+    "Amikacin": {
+     "n": 6413,
+     "n_R": 59,
+     "prev": 0.009200062373304226
+    },
+    "Levofloxacin": {
+     "n": 4859,
+     "n_R": 1346,
+     "prev": 0.2770117308088084
+    },
+    "Tobramycin": {
+     "n": 4877,
+     "n_R": 604,
+     "prev": 0.12384662702481034
+    },
+    "Ceftriaxone": {
+     "n": 8084,
+     "n_R": 1476,
+     "prev": 0.18258287976249382
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "n": 7935,
+     "n_R": 1800,
+     "prev": 0.22684310018903592
+    },
+    "Ampicillin": {
+     "n": 7955,
+     "n_R": 4516,
+     "prev": 0.5676932746700188
+    },
+    "Cefpodoxime": {
+     "n": 2075,
+     "n_R": 874,
+     "prev": 0.42120481927710846
+    },
+    "Norfloxacin": {
+     "n": 2147,
+     "n_R": 559,
+     "prev": 0.2603632976245924
+    },
+    "Fosfomycin": {
+     "n": 4177,
+     "n_R": 104,
+     "prev": 0.024898252334211158
+    },
+    "Gentamicin": {
+     "n": 3120,
+     "n_R": 277,
+     "prev": 0.08878205128205129
+    },
+    "Cefuroxime": {
+     "n": 1124,
+     "n_R": 242,
+     "prev": 0.21530249110320285
+    }
+   },
+   "cluster_order": [
+    "Fosfomycin",
+    "Amikacin",
+    "Gentamicin",
+    "Piperacillin-Tazobactam",
+    "Amoxicillin-Clavulanic acid",
+    "Cotrimoxazole",
+    "Ampicillin",
+    "Ceftriaxone",
+    "Cefpodoxime",
+    "Cefepime",
+    "Ceftazidime",
+    "Cefuroxime",
+    "Tobramycin",
+    "Norfloxacin",
+    "Ciprofloxacin",
+    "Levofloxacin"
+   ],
+   "phi_matrix": {
+    "Fosfomycin": {
+     "Fosfomycin": 1.0,
+     "Amikacin": 0.0043,
+     "Gentamicin": 0.0438,
+     "Piperacillin-Tazobactam": 0.0428,
+     "Amoxicillin-Clavulanic acid": 0.0391,
+     "Cotrimoxazole": -0.0166,
+     "Ampicillin": 0.0346,
+     "Ceftriaxone": 0.0323,
+     "Cefpodoxime": 0.0481,
+     "Cefepime": 0.0694,
+     "Ceftazidime": 0.0312,
+     "Cefuroxime": 0.0661,
+     "Tobramycin": 0.0172,
+     "Norfloxacin": 0.0547,
+     "Ciprofloxacin": 0.0418,
+     "Levofloxacin": 0.0576
+    },
+    "Amikacin": {
+     "Fosfomycin": 0.0043,
+     "Amikacin": 1.0,
+     "Gentamicin": 0.1376,
+     "Piperacillin-Tazobactam": 0.1394,
+     "Amoxicillin-Clavulanic acid": 0.1101,
+     "Cotrimoxazole": 0.0882,
+     "Ampicillin": 0.0737,
+     "Ceftriaxone": 0.1331,
+     "Cefpodoxime": 0.0916,
+     "Cefepime": 0.1481,
+     "Ceftazidime": 0.1252,
+     "Cefuroxime": 0.0914,
+     "Tobramycin": 0.1464,
+     "Norfloxacin": 0.0725,
+     "Ciprofloxacin": 0.1194,
+     "Levofloxacin": 0.0965
+    },
+    "Gentamicin": {
+     "Fosfomycin": 0.0438,
+     "Amikacin": 0.1376,
+     "Gentamicin": 1.0,
+     "Piperacillin-Tazobactam": 0.1425,
+     "Amoxicillin-Clavulanic acid": 0.2242,
+     "Cotrimoxazole": 0.1928,
+     "Ampicillin": 0.2632,
+     "Ceftriaxone": 0.2772,
+     "Cefpodoxime": null,
+     "Cefepime": 0.2795,
+     "Ceftazidime": 0.2562,
+     "Cefuroxime": 0.2809,
+     "Tobramycin": null,
+     "Norfloxacin": 0.288,
+     "Ciprofloxacin": 0.3382,
+     "Levofloxacin": null
+    },
+    "Piperacillin-Tazobactam": {
+     "Fosfomycin": 0.0428,
+     "Amikacin": 0.1394,
+     "Gentamicin": 0.1425,
+     "Piperacillin-Tazobactam": 1.0,
+     "Amoxicillin-Clavulanic acid": 0.4803,
+     "Cotrimoxazole": 0.1828,
+     "Ampicillin": 0.231,
+     "Ceftriaxone": 0.2186,
+     "Cefpodoxime": 0.2484,
+     "Cefepime": 0.2719,
+     "Ceftazidime": 0.286,
+     "Cefuroxime": 0.4642,
+     "Tobramycin": 0.2004,
+     "Norfloxacin": 0.2207,
+     "Ciprofloxacin": 0.1856,
+     "Levofloxacin": 0.1567
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Fosfomycin": 0.0391,
+     "Amikacin": 0.1101,
+     "Gentamicin": 0.2242,
+     "Piperacillin-Tazobactam": 0.4803,
+     "Amoxicillin-Clavulanic acid": 1.0,
+     "Cotrimoxazole": 0.2354,
+     "Ampicillin": 0.4839,
+     "Ceftriaxone": 0.326,
+     "Cefpodoxime": 0.4394,
+     "Cefepime": 0.3137,
+     "Ceftazidime": 0.3616,
+     "Cefuroxime": 0.4703,
+     "Tobramycin": 0.3818,
+     "Norfloxacin": 0.2739,
+     "Ciprofloxacin": 0.2843,
+     "Levofloxacin": 0.2739
+    },
+    "Cotrimoxazole": {
+     "Fosfomycin": -0.0166,
+     "Amikacin": 0.0882,
+     "Gentamicin": 0.1928,
+     "Piperacillin-Tazobactam": 0.1828,
+     "Amoxicillin-Clavulanic acid": 0.2354,
+     "Cotrimoxazole": 1.0,
+     "Ampicillin": 0.4849,
+     "Ceftriaxone": 0.2657,
+     "Cefpodoxime": 0.3223,
+     "Cefepime": 0.1545,
+     "Ceftazidime": 0.179,
+     "Cefuroxime": 0.2731,
+     "Tobramycin": 0.2832,
+     "Norfloxacin": 0.2612,
+     "Ciprofloxacin": 0.2738,
+     "Levofloxacin": 0.2806
+    },
+    "Ampicillin": {
+     "Fosfomycin": 0.0346,
+     "Amikacin": 0.0737,
+     "Gentamicin": 0.2632,
+     "Piperacillin-Tazobactam": 0.231,
+     "Amoxicillin-Clavulanic acid": 0.4839,
+     "Cotrimoxazole": 0.4849,
+     "Ampicillin": 1.0,
+     "Ceftriaxone": 0.4162,
+     "Cefpodoxime": 0.567,
+     "Cefepime": 0.2491,
+     "Ceftazidime": 0.3096,
+     "Cefuroxime": 0.4205,
+     "Tobramycin": 0.303,
+     "Norfloxacin": 0.3899,
+     "Ciprofloxacin": 0.3903,
+     "Levofloxacin": 0.4098
+    },
+    "Ceftriaxone": {
+     "Fosfomycin": 0.0323,
+     "Amikacin": 0.1331,
+     "Gentamicin": 0.2772,
+     "Piperacillin-Tazobactam": 0.2186,
+     "Amoxicillin-Clavulanic acid": 0.326,
+     "Cotrimoxazole": 0.2657,
+     "Ampicillin": 0.4162,
+     "Ceftriaxone": 1.0,
+     "Cefpodoxime": 0.8708,
+     "Cefepime": 0.5723,
+     "Ceftazidime": 0.7208,
+     "Cefuroxime": 0.8635,
+     "Tobramycin": 0.4213,
+     "Norfloxacin": 0.4197,
+     "Ciprofloxacin": 0.4977,
+     "Levofloxacin": 0.5292
+    },
+    "Cefpodoxime": {
+     "Fosfomycin": 0.0481,
+     "Amikacin": 0.0916,
+     "Gentamicin": null,
+     "Piperacillin-Tazobactam": 0.2484,
+     "Amoxicillin-Clavulanic acid": 0.4394,
+     "Cotrimoxazole": 0.3223,
+     "Ampicillin": 0.567,
+     "Ceftriaxone": 0.8708,
+     "Cefpodoxime": 1.0,
+     "Cefepime": 0.4056,
+     "Ceftazidime": 0.5438,
+     "Cefuroxime": null,
+     "Tobramycin": 0.3801,
+     "Norfloxacin": 0.4283,
+     "Ciprofloxacin": 0.5104,
+     "Levofloxacin": 0.5108
+    },
+    "Cefepime": {
+     "Fosfomycin": 0.0694,
+     "Amikacin": 0.1481,
+     "Gentamicin": 0.2795,
+     "Piperacillin-Tazobactam": 0.2719,
+     "Amoxicillin-Clavulanic acid": 0.3137,
+     "Cotrimoxazole": 0.1545,
+     "Ampicillin": 0.2491,
+     "Ceftriaxone": 0.5723,
+     "Cefpodoxime": 0.4056,
+     "Cefepime": 1.0,
+     "Ceftazidime": 0.7175,
+     "Cefuroxime": 0.7701,
+     "Tobramycin": 0.3163,
+     "Norfloxacin": 0.3683,
+     "Ciprofloxacin": 0.3408,
+     "Levofloxacin": 0.321
+    },
+    "Ceftazidime": {
+     "Fosfomycin": 0.0312,
+     "Amikacin": 0.1252,
+     "Gentamicin": 0.2562,
+     "Piperacillin-Tazobactam": 0.286,
+     "Amoxicillin-Clavulanic acid": 0.3616,
+     "Cotrimoxazole": 0.179,
+     "Ampicillin": 0.3096,
+     "Ceftriaxone": 0.7208,
+     "Cefpodoxime": 0.5438,
+     "Cefepime": 0.7175,
+     "Ceftazidime": 1.0,
+     "Cefuroxime": 0.8329,
+     "Tobramycin": 0.3364,
+     "Norfloxacin": 0.3268,
+     "Ciprofloxacin": 0.365,
+     "Levofloxacin": 0.3512
+    },
+    "Cefuroxime": {
+     "Fosfomycin": 0.0661,
+     "Amikacin": 0.0914,
+     "Gentamicin": 0.2809,
+     "Piperacillin-Tazobactam": 0.4642,
+     "Amoxicillin-Clavulanic acid": 0.4703,
+     "Cotrimoxazole": 0.2731,
+     "Ampicillin": 0.4205,
+     "Ceftriaxone": 0.8635,
+     "Cefpodoxime": null,
+     "Cefepime": 0.7701,
+     "Ceftazidime": 0.8329,
+     "Cefuroxime": 1.0,
+     "Tobramycin": null,
+     "Norfloxacin": 0.4058,
+     "Ciprofloxacin": 0.4325,
+     "Levofloxacin": null
+    },
+    "Tobramycin": {
+     "Fosfomycin": 0.0172,
+     "Amikacin": 0.1464,
+     "Gentamicin": null,
+     "Piperacillin-Tazobactam": 0.2004,
+     "Amoxicillin-Clavulanic acid": 0.3818,
+     "Cotrimoxazole": 0.2832,
+     "Ampicillin": 0.303,
+     "Ceftriaxone": 0.4213,
+     "Cefpodoxime": 0.3801,
+     "Cefepime": 0.3163,
+     "Ceftazidime": 0.3364,
+     "Cefuroxime": null,
+     "Tobramycin": 1.0,
+     "Norfloxacin": 0.3666,
+     "Ciprofloxacin": 0.3988,
+     "Levofloxacin": 0.3988
+    },
+    "Norfloxacin": {
+     "Fosfomycin": 0.0547,
+     "Amikacin": 0.0725,
+     "Gentamicin": 0.288,
+     "Piperacillin-Tazobactam": 0.2207,
+     "Amoxicillin-Clavulanic acid": 0.2739,
+     "Cotrimoxazole": 0.2612,
+     "Ampicillin": 0.3899,
+     "Ceftriaxone": 0.4197,
+     "Cefpodoxime": 0.4283,
+     "Cefepime": 0.3683,
+     "Ceftazidime": 0.3268,
+     "Cefuroxime": 0.4058,
+     "Tobramycin": 0.3666,
+     "Norfloxacin": 1.0,
+     "Ciprofloxacin": 0.9867,
+     "Levofloxacin": 1.0
+    },
+    "Ciprofloxacin": {
+     "Fosfomycin": 0.0418,
+     "Amikacin": 0.1194,
+     "Gentamicin": 0.3382,
+     "Piperacillin-Tazobactam": 0.1856,
+     "Amoxicillin-Clavulanic acid": 0.2843,
+     "Cotrimoxazole": 0.2738,
+     "Ampicillin": 0.3903,
+     "Ceftriaxone": 0.4977,
+     "Cefpodoxime": 0.5104,
+     "Cefepime": 0.3408,
+     "Ceftazidime": 0.365,
+     "Cefuroxime": 0.4325,
+     "Tobramycin": 0.3988,
+     "Norfloxacin": 0.9867,
+     "Ciprofloxacin": 1.0,
+     "Levofloxacin": 1.0
+    },
+    "Levofloxacin": {
+     "Fosfomycin": 0.0576,
+     "Amikacin": 0.0965,
+     "Gentamicin": null,
+     "Piperacillin-Tazobactam": 0.1567,
+     "Amoxicillin-Clavulanic acid": 0.2739,
+     "Cotrimoxazole": 0.2806,
+     "Ampicillin": 0.4098,
+     "Ceftriaxone": 0.5292,
+     "Cefpodoxime": 0.5108,
+     "Cefepime": 0.321,
+     "Ceftazidime": 0.3512,
+     "Cefuroxime": null,
+     "Tobramycin": 0.3988,
+     "Norfloxacin": 1.0,
+     "Ciprofloxacin": 1.0,
+     "Levofloxacin": 1.0
+    }
+   },
+   "n_matrix": {
+    "Fosfomycin": {
+     "Fosfomycin": 4177,
+     "Amikacin": 2580,
+     "Gentamicin": 2668,
+     "Piperacillin-Tazobactam": 3771,
+     "Amoxicillin-Clavulanic acid": 4131,
+     "Cotrimoxazole": 2669,
+     "Ampicillin": 4144,
+     "Ceftriaxone": 4148,
+     "Cefpodoxime": 1490,
+     "Cefepime": 3856,
+     "Ceftazidime": 4143,
+     "Cefuroxime": 666,
+     "Tobramycin": 1486,
+     "Norfloxacin": 2136,
+     "Ciprofloxacin": 4080,
+     "Levofloxacin": 1481
+    },
+    "Amikacin": {
+     "Fosfomycin": 2580,
+     "Amikacin": 6413,
+     "Gentamicin": 1542,
+     "Piperacillin-Tazobactam": 6273,
+     "Amoxicillin-Clavulanic acid": 6272,
+     "Cotrimoxazole": 5796,
+     "Ampicillin": 6312,
+     "Ceftriaxone": 6375,
+     "Cefpodoxime": 2028,
+     "Cefepime": 6343,
+     "Ceftazidime": 6306,
+     "Cefuroxime": 811,
+     "Tobramycin": 4841,
+     "Norfloxacin": 1836,
+     "Ciprofloxacin": 6294,
+     "Levofloxacin": 4790
+    },
+    "Gentamicin": {
+     "Fosfomycin": 2668,
+     "Amikacin": 1542,
+     "Gentamicin": 3120,
+     "Piperacillin-Tazobactam": 2789,
+     "Amoxicillin-Clavulanic acid": 3109,
+     "Cotrimoxazole": 1617,
+     "Ampicillin": 3076,
+     "Ceftriaxone": 3107,
+     "Cefpodoxime": 0,
+     "Cefepime": 2818,
+     "Ceftazidime": 3114,
+     "Cefuroxime": 1113,
+     "Tobramycin": 1,
+     "Norfloxacin": 656,
+     "Ciprofloxacin": 3038,
+     "Levofloxacin": 1
+    },
+    "Piperacillin-Tazobactam": {
+     "Fosfomycin": 3771,
+     "Amikacin": 6273,
+     "Gentamicin": 2789,
+     "Piperacillin-Tazobactam": 7603,
+     "Amoxicillin-Clavulanic acid": 7452,
+     "Cotrimoxazole": 6043,
+     "Ampicillin": 7501,
+     "Ceftriaxone": 7564,
+     "Cefpodoxime": 1966,
+     "Cefepime": 7521,
+     "Ceftazidime": 7486,
+     "Cefuroxime": 818,
+     "Tobramycin": 4747,
+     "Norfloxacin": 1787,
+     "Ciprofloxacin": 7459,
+     "Levofloxacin": 4725
+    },
+    "Amoxicillin-Clavulanic acid": {
+     "Fosfomycin": 4131,
+     "Amikacin": 6272,
+     "Gentamicin": 3109,
+     "Piperacillin-Tazobactam": 7452,
+     "Amoxicillin-Clavulanic acid": 7935,
+     "Cotrimoxazole": 6368,
+     "Ampicillin": 7800,
+     "Ceftriaxone": 7908,
+     "Cefpodoxime": 2008,
+     "Cefepime": 7573,
+     "Ceftazidime": 7791,
+     "Cefuroxime": 1106,
+     "Tobramycin": 4745,
+     "Norfloxacin": 2122,
+     "Ciprofloxacin": 7806,
+     "Levofloxacin": 4721
+    },
+    "Cotrimoxazole": {
+     "Fosfomycin": 2669,
+     "Amikacin": 5796,
+     "Gentamicin": 1617,
+     "Piperacillin-Tazobactam": 6043,
+     "Amoxicillin-Clavulanic acid": 6368,
+     "Cotrimoxazole": 6515,
+     "Ampicillin": 6397,
+     "Ceftriaxone": 6481,
+     "Cefpodoxime": 2038,
+     "Cefepime": 6147,
+     "Ceftazidime": 6376,
+     "Cefuroxime": 1097,
+     "Tobramycin": 4805,
+     "Norfloxacin": 2128,
+     "Ciprofloxacin": 6400,
+     "Levofloxacin": 4778
+    },
+    "Ampicillin": {
+     "Fosfomycin": 4144,
+     "Amikacin": 6312,
+     "Gentamicin": 3076,
+     "Piperacillin-Tazobactam": 7501,
+     "Amoxicillin-Clavulanic acid": 7800,
+     "Cotrimoxazole": 6397,
+     "Ampicillin": 7955,
+     "Ceftriaxone": 7928,
+     "Cefpodoxime": 2066,
+     "Cefepime": 7567,
+     "Ceftazidime": 7835,
+     "Cefuroxime": 1090,
+     "Tobramycin": 4810,
+     "Norfloxacin": 2129,
+     "Ciprofloxacin": 7809,
+     "Levofloxacin": 4797
+    },
+    "Ceftriaxone": {
+     "Fosfomycin": 4148,
+     "Amikacin": 6375,
+     "Gentamicin": 3107,
+     "Piperacillin-Tazobactam": 7564,
+     "Amoxicillin-Clavulanic acid": 7908,
+     "Cotrimoxazole": 6481,
+     "Ampicillin": 7928,
+     "Ceftriaxone": 8084,
+     "Cefpodoxime": 2054,
+     "Cefepime": 7687,
+     "Ceftazidime": 7920,
+     "Cefuroxime": 1124,
+     "Tobramycin": 4850,
+     "Norfloxacin": 2131,
+     "Ciprofloxacin": 7931,
+     "Levofloxacin": 4846
+    },
+    "Cefpodoxime": {
+     "Fosfomycin": 1490,
+     "Amikacin": 2028,
+     "Gentamicin": 0,
+     "Piperacillin-Tazobactam": 1966,
+     "Amoxicillin-Clavulanic acid": 2008,
+     "Cotrimoxazole": 2038,
+     "Ampicillin": 2066,
+     "Ceftriaxone": 2054,
+     "Cefpodoxime": 2075,
+     "Cefepime": 2000,
+     "Ceftazidime": 1988,
+     "Cefuroxime": 2,
+     "Tobramycin": 2039,
+     "Norfloxacin": 1477,
+     "Ciprofloxacin": 2038,
+     "Levofloxacin": 2033
+    },
+    "Cefepime": {
+     "Fosfomycin": 3856,
+     "Amikacin": 6343,
+     "Gentamicin": 2818,
+     "Piperacillin-Tazobactam": 7521,
+     "Amoxicillin-Clavulanic acid": 7573,
+     "Cotrimoxazole": 6147,
+     "Ampicillin": 7567,
+     "Ceftriaxone": 7687,
+     "Cefpodoxime": 2000,
+     "Cefepime": 7721,
+     "Ceftazidime": 7586,
+     "Cefuroxime": 819,
+     "Tobramycin": 4812,
+     "Norfloxacin": 1841,
+     "Ciprofloxacin": 7576,
+     "Levofloxacin": 4777
+    },
+    "Ceftazidime": {
+     "Fosfomycin": 4143,
+     "Amikacin": 6306,
+     "Gentamicin": 3114,
+     "Piperacillin-Tazobactam": 7486,
+     "Amoxicillin-Clavulanic acid": 7791,
+     "Cotrimoxazole": 6376,
+     "Ampicillin": 7835,
+     "Ceftriaxone": 7920,
+     "Cefpodoxime": 1988,
+     "Cefepime": 7586,
+     "Ceftazidime": 7945,
+     "Cefuroxime": 1122,
+     "Tobramycin": 4782,
+     "Norfloxacin": 2129,
+     "Ciprofloxacin": 7805,
+     "Levofloxacin": 4766
+    },
+    "Cefuroxime": {
+     "Fosfomycin": 666,
+     "Amikacin": 811,
+     "Gentamicin": 1113,
+     "Piperacillin-Tazobactam": 818,
+     "Amoxicillin-Clavulanic acid": 1106,
+     "Cotrimoxazole": 1097,
+     "Ampicillin": 1090,
+     "Ceftriaxone": 1124,
+     "Cefpodoxime": 2,
+     "Cefepime": 819,
+     "Ceftazidime": 1122,
+     "Cefuroxime": 1124,
+     "Tobramycin": 0,
+     "Norfloxacin": 652,
+     "Ciprofloxacin": 1097,
+     "Levofloxacin": 0
+    },
+    "Tobramycin": {
+     "Fosfomycin": 1486,
+     "Amikacin": 4841,
+     "Gentamicin": 1,
+     "Piperacillin-Tazobactam": 4747,
+     "Amoxicillin-Clavulanic acid": 4745,
+     "Cotrimoxazole": 4805,
+     "Ampicillin": 4810,
+     "Ceftriaxone": 4850,
+     "Cefpodoxime": 2039,
+     "Cefepime": 4812,
+     "Ceftazidime": 4782,
+     "Cefuroxime": 0,
+     "Tobramycin": 4877,
+     "Norfloxacin": 1477,
+     "Ciprofloxacin": 4808,
+     "Levofloxacin": 4807
+    },
+    "Norfloxacin": {
+     "Fosfomycin": 2136,
+     "Amikacin": 1836,
+     "Gentamicin": 656,
+     "Piperacillin-Tazobactam": 1787,
+     "Amoxicillin-Clavulanic acid": 2122,
+     "Cotrimoxazole": 2128,
+     "Ampicillin": 2129,
+     "Ceftriaxone": 2131,
+     "Cefpodoxime": 1477,
+     "Cefepime": 1841,
+     "Ceftazidime": 2129,
+     "Cefuroxime": 652,
+     "Tobramycin": 1477,
+     "Norfloxacin": 2147,
+     "Ciprofloxacin": 2145,
+     "Levofloxacin": 1488
+    },
+    "Ciprofloxacin": {
+     "Fosfomycin": 4080,
+     "Amikacin": 6294,
+     "Gentamicin": 3038,
+     "Piperacillin-Tazobactam": 7459,
+     "Amoxicillin-Clavulanic acid": 7806,
+     "Cotrimoxazole": 6400,
+     "Ampicillin": 7809,
+     "Ceftriaxone": 7931,
+     "Cefpodoxime": 2038,
+     "Cefepime": 7576,
+     "Ceftazidime": 7805,
+     "Cefuroxime": 1097,
+     "Tobramycin": 4808,
+     "Norfloxacin": 2145,
+     "Ciprofloxacin": 7952,
+     "Levofloxacin": 4857
+    },
+    "Levofloxacin": {
+     "Fosfomycin": 1481,
+     "Amikacin": 4790,
+     "Gentamicin": 1,
+     "Piperacillin-Tazobactam": 4725,
+     "Amoxicillin-Clavulanic acid": 4721,
+     "Cotrimoxazole": 4778,
+     "Ampicillin": 4797,
+     "Ceftriaxone": 4846,
+     "Cefpodoxime": 2033,
+     "Cefepime": 4777,
+     "Ceftazidime": 4766,
+     "Cefuroxime": 0,
+     "Tobramycin": 4807,
+     "Norfloxacin": 1488,
+     "Ciprofloxacin": 4857,
+     "Levofloxacin": 4859
+    }
+   },
+   "top15": [
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Levofloxacin",
+     "phi": 1.0,
+     "n": 4857,
+     "prev_1": 0.2771257978175829,
+     "prev_2": 0.2771257978175829
+    },
+    {
+     "drug_1": "Levofloxacin",
+     "drug_2": "Norfloxacin",
+     "phi": 1.0,
+     "n": 1488,
+     "prev_1": 0.25,
+     "prev_2": 0.25
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Norfloxacin",
+     "phi": 0.9866963206078535,
+     "n": 2145,
+     "prev_1": 0.25547785547785545,
+     "prev_2": 0.2606060606060606
+    },
+    {
+     "drug_1": "Ceftriaxone",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.8708047723099078,
+     "n": 2054,
+     "prev_1": 0.35004868549172347,
+     "prev_2": 0.41528724440116843
+    },
+    {
+     "drug_1": "Ceftriaxone",
+     "drug_2": "Cefuroxime",
+     "phi": 0.8634819697560597,
+     "n": 1124,
+     "prev_1": 0.17170818505338079,
+     "prev_2": 0.21530249110320285
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Cefuroxime",
+     "phi": 0.8328758987631376,
+     "n": 1122,
+     "prev_1": 0.16399286987522282,
+     "prev_2": 0.21568627450980393
+    },
+    {
+     "drug_1": "Cefepime",
+     "drug_2": "Cefuroxime",
+     "phi": 0.7701465415825949,
+     "n": 819,
+     "prev_1": 0.18437118437118438,
+     "prev_2": 0.27594627594627597
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.7208237674868826,
+     "n": 7920,
+     "prev_1": 0.10808080808080808,
+     "prev_2": 0.17487373737373738
+    },
+    {
+     "drug_1": "Cefepime",
+     "drug_2": "Ceftazidime",
+     "phi": 0.7174570163968591,
+     "n": 7586,
+     "prev_1": 0.07421566042710255,
+     "prev_2": 0.10901660954389665
+    },
+    {
+     "drug_1": "Cefepime",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.5722905356143101,
+     "n": 7687,
+     "prev_1": 0.07350071549369065,
+     "prev_2": 0.18082476909067258
+    },
+    {
+     "drug_1": "Ampicillin",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.5670151513709656,
+     "n": 2066,
+     "prev_1": 0.6364956437560504,
+     "prev_2": 0.42255566311713455
+    },
+    {
+     "drug_1": "Ceftazidime",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.543819015521557,
+     "n": 1988,
+     "prev_1": 0.16348088531187122,
+     "prev_2": 0.397887323943662
+    },
+    {
+     "drug_1": "Levofloxacin",
+     "drug_2": "Ceftriaxone",
+     "phi": 0.5292071872918924,
+     "n": 4846,
+     "prev_1": 0.27713578208832024,
+     "prev_2": 0.2162608336772596
+    },
+    {
+     "drug_1": "Levofloxacin",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.5107937057044443,
+     "n": 2033,
+     "prev_1": 0.3630103295622233,
+     "prev_2": 0.41219872110182
+    },
+    {
+     "drug_1": "Ciprofloxacin",
+     "drug_2": "Cefpodoxime",
+     "phi": 0.5103884267517779,
+     "n": 2038,
+     "prev_1": 0.3631010794896958,
+     "prev_2": 0.41069676153091267
+    }
+   ],
+   "class_means": {
+    "within_class": 0.6331275210529621,
+    "between_class": 0.2562260822589033,
+    "beta_lactam_superblock": 0.4761135155233425,
+    "blocks": {
+     "Aminoglycoside vs Aminoglycoside": {
+      "mean_phi": 0.14198184235528444,
+      "n_pairs": 2
+     },
+     "Aminoglycoside vs Cephalosporin": {
+      "mean_phi": 0.24133297405166662,
+      "n_pairs": 13
+     },
+     "Aminoglycoside vs Fluoroquinolone": {
+      "mean_phi": 0.25985629922143494,
+      "n_pairs": 8
+     },
+     "Aminoglycoside vs Other": {
+      "mean_phi": 0.02173895310751764,
+      "n_pairs": 3
+     },
+     "Aminoglycoside vs Penicillin/BLI": {
+      "mean_phi": 0.2042684395771729,
+      "n_pairs": 9
+     },
+     "Aminoglycoside vs TMP-SMX": {
+      "mean_phi": 0.18806820536308308,
+      "n_pairs": 3
+     },
+     "Cephalosporin vs Cephalosporin": {
+      "mean_phi": 0.6996948193007078,
+      "n_pairs": 9
+     },
+     "Cephalosporin vs Fluoroquinolone": {
+      "mean_phi": 0.41482093188988206,
+      "n_pairs": 14
+     },
+     "Cephalosporin vs Other": {
+      "mean_phi": 0.0494301266659557,
+      "n_pairs": 5
+     },
+     "Cephalosporin vs Penicillin/BLI": {
+      "mean_phi": 0.35750380443655416,
+      "n_pairs": 15
+     },
+     "Cephalosporin vs TMP-SMX": {
+      "mean_phi": 0.23893027917373785,
+      "n_pairs": 5
+     },
+     "Fluoroquinolone vs Fluoroquinolone": {
+      "mean_phi": 0.9955654402026178,
+      "n_pairs": 3
+     },
+     "Fluoroquinolone vs Other": {
+      "mean_phi": 0.05137475395139569,
+      "n_pairs": 3
+     },
+     "Fluoroquinolone vs Penicillin/BLI": {
+      "mean_phi": 0.2872542232044235,
+      "n_pairs": 9
+     },
+     "Fluoroquinolone vs TMP-SMX": {
+      "mean_phi": 0.2719024015746556,
+      "n_pairs": 3
+     },
+     "Other vs Penicillin/BLI": {
+      "mean_phi": 0.03881569110429465,
+      "n_pairs": 3
+     },
+     "Other vs TMP-SMX": {
+      "mean_phi": -0.016628746932754755,
+      "n_pairs": 1
+     },
+     "Penicillin/BLI vs Penicillin/BLI": {
+      "mean_phi": 0.3984181596251883,
+      "n_pairs": 3
+     },
+     "Penicillin/BLI vs TMP-SMX": {
+      "mean_phi": 0.30104118235363164,
+      "n_pairs": 3
+     }
+    }
+   },
+   "chaining_candidates": [
+    {
+     "upstream_candidate": "Ceftriaxone",
+     "downstream": "Ceftazidime",
+     "phi": 0.7208237674868826,
+     "n": 7920,
+     "prev_upstream": 0.17487373737373738,
+     "prev_downstream": 0.10808080808080808,
+     "prev_ratio": 1.6179906542056075,
+     "phi_max": 0.7561525939262127
+    },
+    {
+     "upstream_candidate": "Ceftriaxone",
+     "downstream": "Cefepime",
+     "phi": 0.5722905356143101,
+     "n": 7687,
+     "prev_upstream": 0.18082476909067258,
+     "prev_downstream": 0.07350071549369065,
+     "prev_ratio": 2.4601769911504423,
+     "phi_max": 0.5994910251630621
+    },
+    {
+     "upstream_candidate": "Ampicillin",
+     "downstream": "Cefpodoxime",
+     "phi": 0.5670151513709656,
+     "n": 2066,
+     "prev_upstream": 0.6364956437560504,
+     "prev_downstream": 0.42255566311713455,
+     "prev_ratio": 1.5063001145475374,
+     "phi_max": 0.6464634745687524
+    },
+    {
+     "upstream_candidate": "Cefpodoxime",
+     "downstream": "Ceftazidime",
+     "phi": 0.543819015521557,
+     "n": 1988,
+     "prev_upstream": 0.397887323943662,
+     "prev_downstream": 0.16348088531187122,
+     "prev_ratio": 2.433846153846154,
+     "phi_max": 0.543819015521557
+    }
+   ]
+  }
+ },
+ "X13": {
+  "n_per_instrument": {
+   "1": 67,
+   "2": 120
+  },
+  "prevalence": {
+   "CIP": {
+    "instr1": {
+     "n_R": 22,
+     "frac": 0.3283582089552239
+    },
+    "instr2": {
+     "n_R": 50,
+     "frac": 0.4166666666666667
+    },
+    "fisher_p": 0.27375821037211406,
+    "OR_instr1_vs_instr2": [
+     0.6844444444444444,
+     0.36604647559354014,
+     1.279794312378653
+    ]
+   },
+   "CTX": {
+    "instr1": {
+     "n_R": 25,
+     "frac": 0.373134328358209
+    },
+    "instr2": {
+     "n_R": 54,
+     "frac": 0.45
+    },
+    "fisher_p": 0.35538144824333284,
+    "OR_instr1_vs_instr2": [
+     0.7275132275132276,
+     0.394531024373733,
+     1.3415307377838526
+    ]
+   },
+   "CAZ": {
+    "instr1": {
+     "n_R": 19,
+     "frac": 0.2835820895522388
+    },
+    "instr2": {
+     "n_R": 50,
+     "frac": 0.4166666666666667
+    },
+    "fisher_p": 0.08287125930495075,
+    "OR_instr1_vs_instr2": [
+     0.5541666666666667,
+     0.29122601395015973,
+     1.0545098299391673
+    ]
+   }
+  },
+  "instrument_indicator_auroc": {
+   "CIP": {
+    "auroc_instr2_as_score": 0.5428743961352657,
+    "auroc_folded": 0.5428743961352657,
+    "resistance_enriched_on": 2
+   },
+   "CTX": {
+    "auroc_instr2_as_score": 0.5362165963431786,
+    "auroc_folded": 0.5362165963431786,
+    "resistance_enriched_on": 2
+   },
+   "CAZ": {
+    "auroc_instr2_as_score": 0.5657086710881848,
+    "auroc_folded": 0.5657086710881848,
+    "resistance_enriched_on": 2
+   }
+  },
+  "profiles_per_instrument": {
+   "1": {
+    "SSS": 37,
+    "SSR": 0,
+    "SRS": 5,
+    "SRR": 3,
+    "RSS": 5,
+    "RSR": 0,
+    "RRS": 1,
+    "RRR": 16
+   },
+   "2": {
+    "SSS": 57,
+    "SSR": 0,
+    "SRS": 3,
+    "SRR": 10,
+    "RSS": 9,
+    "RSR": 0,
+    "RRS": 1,
+    "RRR": 40
+   }
+  },
+  "per_instrument_performance": {
+   "CIP": {
+    "all": {
+     "n": 187,
+     "n_R": 72,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.842632850241546,
+      "AUROC_per_repeat": [
+       0.8536231884057971,
+       0.8655797101449276,
+       0.808695652173913
+      ],
+      "MCC_mean_over_repeats": 0.5335097252757791,
+      "MCC_per_repeat": [
+       0.5437961803049794,
+       0.5787659321488395,
+       0.4779670633735184
+      ],
+      "AUROC_pooled": 0.841478797638218,
+      "MCC_pooled": 0.5334270738971015
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.8419082125603864,
+      "AUROC_per_repeat": [
+       0.8330917874396135,
+       0.8631642512077294,
+       0.8294685990338163
+      ],
+      "MCC_mean_over_repeats": 0.47979889483476706,
+      "MCC_per_repeat": [
+       0.45447700093121474,
+       0.5596973247292176,
+       0.4252223588438687
+      ],
+      "AUROC_pooled": 0.8434380032206119,
+      "MCC_pooled": 0.4791301304475001
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": -0.0007246376811596011,
+      "dMCC_mean_over_repeats": -0.05371083044101205,
+      "dAUROC_pooled": 0.0019592055823939303,
+      "dMCC_pooled": -0.054296943449601454,
+      "dAUROC_boot_ci95": [
+       -0.015101034896097732,
+       0.019881486568986632
+      ],
+      "dMCC_boot_ci95": [
+       -0.09866690898293456,
+       -0.012531997866825115
+      ],
+      "per_fold_dAUROC_mean": -0.0067494824016563594,
+      "per_fold_dAUROC_signflip_p": 0.4608154296875,
+      "per_fold_dMCC_mean": -0.053007087113763826,
+      "per_fold_dMCC_signflip_p": 0.13970947265625,
+      "n_folds_used": 15
+     }
+    },
+    "instr1": {
+     "n": 67,
+     "n_R": 22,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.7653198653198654,
+      "AUROC_per_repeat": [
+       0.7505050505050506,
+       0.7666666666666667,
+       0.7787878787878788
+      ],
+      "MCC_mean_over_repeats": 0.34959663538978186,
+      "MCC_per_repeat": [
+       0.36465738301433676,
+       0.39090909090909093,
+       0.29322343224591796
+      ],
+      "AUROC_pooled": 0.7630751964085297,
+      "MCC_pooled": 0.3497195779097138
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.7511784511784511,
+      "AUROC_per_repeat": [
+       0.7151515151515151,
+       0.7626262626262625,
+       0.7757575757575758
+      ],
+      "MCC_mean_over_repeats": 0.30205039431451575,
+      "MCC_per_repeat": [
+       0.19469585781729895,
+       0.4182318928803303,
+       0.29322343224591796
+      ],
+      "AUROC_pooled": 0.75331088664422,
+      "MCC_pooled": 0.3029145345938142
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": -0.014141414141414343,
+      "dMCC_mean_over_repeats": -0.047546241075266116,
+      "dAUROC_pooled": -0.009764309764309753,
+      "dMCC_pooled": -0.04680504331589963,
+      "dAUROC_boot_ci95": [
+       -0.0425420198350918,
+       0.024441625740286025
+      ],
+      "dMCC_boot_ci95": [
+       -0.11429348937356675,
+       0.016196483198778422
+      ],
+      "per_fold_dAUROC_mean": -0.012927449094115777,
+      "per_fold_dAUROC_signflip_p": 0.4091796875,
+      "per_fold_dMCC_mean": -0.03515523924768127,
+      "per_fold_dMCC_signflip_p": 0.3671875,
+      "n_folds_used": 15
+     }
+    },
+    "instr2": {
+     "n": 120,
+     "n_R": 50,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.8796190476190476,
+      "AUROC_per_repeat": [
+       0.9011428571428572,
+       0.9102857142857143,
+       0.8274285714285715
+      ],
+      "MCC_mean_over_repeats": 0.617347992080247,
+      "MCC_per_repeat": [
+       0.6285648694397382,
+       0.6663370783926228,
+       0.5571420284083805
+      ],
+      "AUROC_pooled": 0.8789841269841271,
+      "MCC_pooled": 0.6172393762966798
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.8873333333333333,
+      "AUROC_per_repeat": [
+       0.888,
+       0.9142857142857143,
+       0.8597142857142857
+      ],
+      "MCC_mean_over_repeats": 0.5576658491377361,
+      "MCC_per_repeat": [
+       0.5693869455152485,
+       0.6226834574701994,
+       0.48092714442776047
+      ],
+      "AUROC_pooled": 0.887968253968254,
+      "MCC_pooled": 0.5555899194164233
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.0077142857142856736,
+      "dMCC_mean_over_repeats": -0.05968214294251095,
+      "dAUROC_pooled": 0.008984126984126872,
+      "dMCC_pooled": -0.06164945688025647,
+      "dAUROC_boot_ci95": [
+       -0.010351270225402196,
+       0.02812417702123573
+      ],
+      "dMCC_boot_ci95": [
+       -0.1203979364900167,
+       -0.004960761010535862
+      ],
+      "per_fold_dAUROC_mean": 0.002990731834385074,
+      "per_fold_dAUROC_signflip_p": 0.8193359375,
+      "per_fold_dMCC_mean": -0.05499146583206883,
+      "per_fold_dMCC_signflip_p": 0.24951171875,
+      "n_folds_used": 15
+     }
+    }
+   },
+   "CTX": {
+    "all": {
+     "n": 187,
+     "n_R": 79,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.6510001562744178,
+      "AUROC_per_repeat": [
+       0.6788560712611346,
+       0.6483825597749648,
+       0.6257618377871542
+      ],
+      "MCC_mean_over_repeats": 0.21053265492048223,
+      "MCC_per_repeat": [
+       0.25739116269197,
+       0.1918457962506649,
+       0.1823610058188118
+      ],
+      "AUROC_pooled": 0.6514689795280513,
+      "MCC_pooled": 0.21051677840309077
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.6934286607282388,
+      "AUROC_per_repeat": [
+       0.7305438349742148,
+       0.6790904828879513,
+       0.6706516643225504
+      ],
+      "MCC_mean_over_repeats": 0.32214501302843185,
+      "MCC_per_repeat": [
+       0.3472442994458244,
+       0.30844241800879707,
+       0.3107483216306742
+      ],
+      "AUROC_pooled": 0.6914101161639838,
+      "MCC_pooled": 0.32162633123677536
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.04242850445382107,
+      "dMCC_mean_over_repeats": 0.11161235810794962,
+      "dAUROC_pooled": 0.03994113663593257,
+      "dMCC_pooled": 0.1111095528336846,
+      "dAUROC_boot_ci95": [
+       0.015198894545733949,
+       0.0665429169714609
+      ],
+      "dMCC_boot_ci95": [
+       0.04723812509282847,
+       0.1771736547387889
+      ],
+      "per_fold_dAUROC_mean": 0.04416772769713947,
+      "per_fold_dAUROC_signflip_p": 0.00634765625,
+      "per_fold_dMCC_mean": 0.11143465084862024,
+      "per_fold_dMCC_signflip_p": 0.000732421875,
+      "n_folds_used": 15
+     }
+    },
+    "instr1": {
+     "n": 67,
+     "n_R": 25,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.5866666666666667,
+      "AUROC_per_repeat": [
+       0.6104761904761905,
+       0.562857142857143,
+       0.5866666666666667
+      ],
+      "MCC_mean_over_repeats": 0.12973051471664537,
+      "MCC_per_repeat": [
+       0.13080305909012604,
+       0.03623630650072645,
+       0.22215217855908362
+      ],
+      "AUROC_pooled": 0.5861375661375661,
+      "MCC_pooled": 0.1306455603560207
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.5933333333333334,
+      "AUROC_per_repeat": [
+       0.6104761904761905,
+       0.5704761904761905,
+       0.599047619047619
+      ],
+      "MCC_mean_over_repeats": 0.20039755832081343,
+      "MCC_per_repeat": [
+       0.15898732002908014,
+       0.143974238277504,
+       0.2982311166558562
+      ],
+      "AUROC_pooled": 0.5926984126984126,
+      "MCC_pooled": 0.19927028533261387
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.00666666666666671,
+      "dMCC_mean_over_repeats": 0.07066704360416806,
+      "dAUROC_pooled": 0.006560846560846545,
+      "dMCC_pooled": 0.06862472497659317,
+      "dAUROC_boot_ci95": [
+       -0.02953133715328843,
+       0.04494646161312816
+      ],
+      "dMCC_boot_ci95": [
+       -0.02798159684077515,
+       0.16424229959250516
+      ],
+      "per_fold_dAUROC_mean": -0.006395806133901379,
+      "per_fold_dAUROC_signflip_p": 0.6546630859375,
+      "per_fold_dMCC_mean": 0.062018454894311265,
+      "per_fold_dMCC_signflip_p": 0.28515625,
+      "n_folds_used": 15
+     }
+    },
+    "instr2": {
+     "n": 120,
+     "n_R": 54,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.681818181818182,
+      "AUROC_per_repeat": [
+       0.7157687991021324,
+       0.6843434343434344,
+       0.6453423120089787
+      ],
+      "MCC_mean_over_repeats": 0.23570065085187775,
+      "MCC_per_repeat": [
+       0.3050309793826919,
+       0.25296965395464227,
+       0.14910131921829908
+      ],
+      "AUROC_pooled": 0.6823793490460157,
+      "MCC_pooled": 0.23564007837692316
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.7427048260381595,
+      "AUROC_per_repeat": [
+       0.7895622895622896,
+       0.734006734006734,
+       0.7045454545454546
+      ],
+      "MCC_mean_over_repeats": 0.3720011274654953,
+      "MCC_per_repeat": [
+       0.4286319698104043,
+       0.38071549895311796,
+       0.3066559136329636
+      ],
+      "AUROC_pooled": 0.7419566030677142,
+      "MCC_pooled": 0.37046917334404883
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.06088664421997747,
+      "dMCC_mean_over_repeats": 0.13630047661361755,
+      "dAUROC_pooled": 0.059577254021698445,
+      "dMCC_pooled": 0.13482909496712567,
+      "dAUROC_boot_ci95": [
+       0.024728319594949165,
+       0.09409924010692239
+      ],
+      "dMCC_boot_ci95": [
+       0.04924363850207771,
+       0.22400870761416247
+      ],
+      "per_fold_dAUROC_mean": 0.0718383005883006,
+      "per_fold_dAUROC_signflip_p": 0.0166015625,
+      "per_fold_dMCC_mean": 0.13674892108751496,
+      "per_fold_dMCC_signflip_p": 0.004150390625,
+      "n_folds_used": 15
+     }
+    }
+   },
+   "CAZ": {
+    "all": {
+     "n": 187,
+     "n_R": 69,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.7331941373945795,
+      "AUROC_per_repeat": [
+       0.7733971997052321,
+       0.7030213706705969,
+       0.7231638418079097
+      ],
+      "MCC_mean_over_repeats": 0.37095013437618246,
+      "MCC_per_repeat": [
+       0.43196839564329875,
+       0.30133032912074154,
+       0.37955167836450704
+      ],
+      "AUROC_pooled": 0.7303829252981795,
+      "MCC_pooled": 0.3697994713647371
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.7548104478834029,
+      "AUROC_per_repeat": [
+       0.7796610169491526,
+       0.7410955539179563,
+       0.7436747727831
+      ],
+      "MCC_mean_over_repeats": 0.36476797086758234,
+      "MCC_per_repeat": [
+       0.39177779548603636,
+       0.3107483216306742,
+       0.39177779548603636
+      ],
+      "AUROC_pooled": 0.7517126559130981,
+      "MCC_pooled": 0.3645481973309743
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.021616310488823398,
+      "dMCC_mean_over_repeats": -0.006182163508600125,
+      "dAUROC_pooled": 0.021329730614918607,
+      "dMCC_pooled": -0.005251274033762798,
+      "dAUROC_boot_ci95": [
+       -0.0024147044378042574,
+       0.04538933336307889
+      ],
+      "dMCC_boot_ci95": [
+       -0.059500860784659,
+       0.052233090330080244
+      ],
+      "per_fold_dAUROC_mean": 0.01033673090194831,
+      "per_fold_dAUROC_signflip_p": 0.181884765625,
+      "per_fold_dMCC_mean": -0.009571392952270245,
+      "per_fold_dMCC_signflip_p": 0.723388671875,
+      "n_folds_used": 15
+     }
+    },
+    "instr1": {
+     "n": 67,
+     "n_R": 19,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.6860380116959064,
+      "AUROC_per_repeat": [
+       0.6885964912280702,
+       0.6337719298245614,
+       0.7357456140350878
+      ],
+      "MCC_mean_over_repeats": 0.22890810151448507,
+      "MCC_per_repeat": [
+       0.19126761640066342,
+       0.11842105263157894,
+       0.37703563551121283
+      ],
+      "AUROC_pooled": 0.6840886939571149,
+      "MCC_pooled": 0.22522499497568768
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.7046783625730995,
+      "AUROC_per_repeat": [
+       0.7302631578947368,
+       0.6589912280701755,
+       0.724780701754386
+      ],
+      "MCC_mean_over_repeats": 0.2518124119227972,
+      "MCC_per_repeat": [
+       0.2689338606360843,
+       0.16848577983532892,
+       0.31801759529697826
+      ],
+      "AUROC_pooled": 0.7012670565302144,
+      "MCC_pooled": 0.24975273385209798
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.018640350877193068,
+      "dMCC_mean_over_repeats": 0.022904310408312117,
+      "dAUROC_pooled": 0.01717836257309946,
+      "dMCC_pooled": 0.0245277388764103,
+      "dAUROC_boot_ci95": [
+       -0.01725961217820473,
+       0.06170217438025038
+      ],
+      "dMCC_boot_ci95": [
+       -0.06991046907308213,
+       0.13420516777108465
+      ],
+      "per_fold_dAUROC_mean": 0.013394260060926732,
+      "per_fold_dAUROC_signflip_p": 0.6689453125,
+      "per_fold_dMCC_mean": 0.05535876453795862,
+      "per_fold_dMCC_signflip_p": 0.44140625,
+      "n_folds_used": 15
+     }
+    },
+    "instr2": {
+     "n": 120,
+     "n_R": 50,
+     "BR": {
+      "AUROC_mean_over_repeats": 0.7462857142857143,
+      "AUROC_per_repeat": [
+       0.7994285714285714,
+       0.7277142857142858,
+       0.7117142857142857
+      ],
+      "MCC_mean_over_repeats": 0.4117104495952475,
+      "MCC_per_repeat": [
+       0.5130120004147288,
+       0.36140316116210053,
+       0.36071618720891296
+      ],
+      "AUROC_pooled": 0.7470476190476191,
+      "MCC_pooled": 0.4099170257893273
+     },
+     "Ens": {
+      "AUROC_mean_over_repeats": 0.7692380952380953,
+      "AUROC_per_repeat": [
+       0.788,
+       0.7717142857142857,
+       0.748
+      ],
+      "MCC_mean_over_repeats": 0.3907589648628356,
+      "MCC_per_repeat": [
+       0.4198182586563788,
+       0.35219652571843857,
+       0.4002621102136895
+      ],
+      "AUROC_pooled": 0.768,
+      "MCC_pooled": 0.39074557004294685
+     },
+     "chain_gain": {
+      "dAUROC_mean_over_repeats": 0.022952380952380946,
+      "dMCC_mean_over_repeats": -0.020951484732411874,
+      "dAUROC_pooled": 0.020952380952380945,
+      "dMCC_pooled": -0.01917145574638046,
+      "dAUROC_boot_ci95": [
+       -0.009145314662158103,
+       0.05358110119047606
+      ],
+      "dMCC_boot_ci95": [
+       -0.09094907468698317,
+       0.05576540753113247
+      ],
+      "per_fold_dAUROC_mean": 0.0005343225091124355,
+      "per_fold_dAUROC_signflip_p": 0.95257568359375,
+      "per_fold_dMCC_mean": -0.024777426279185874,
+      "per_fold_dMCC_signflip_p": 0.5283203125,
+      "n_folds_used": 15
+     }
+    }
+   }
+  },
+  "spectral_instrument_classifier": {
+   "model": "StandardScaler + L2 logistic regression (class_weight balanced), C in {0.001, 0.01, 0.1, 1} by inner 3-fold grid search",
+   "cv": "RepeatedStratifiedKFold(5, 3, random_state=42)",
+   "fold_AUROC": [
+    0.875,
+    0.8690476190476191,
+    0.8397435897435898,
+    0.8365384615384617,
+    0.9038461538461539,
+    0.8511904761904762,
+    0.8601190476190476,
+    0.8846153846153847,
+    0.9487179487179487,
+    0.8557692307692308,
+    0.8779761904761905,
+    0.8035714285714285,
+    0.8525641025641025,
+    0.7948717948717948,
+    0.9006410256410255
+   ],
+   "AUROC_mean": 0.8636141636141637,
+   "AUROC_sd": 0.038750563583877184,
+   "AUROC_min": 0.7948717948717948,
+   "AUROC_max": 0.9487179487179487,
+   "balanced_accuracy_mean": 0.7484432234432234,
+   "pooled_AUROC_per_repeat": [
+    0.831094527363184,
+    0.8695273631840796,
+    0.8283582089552239
+   ],
+   "chosen_C": [
+    0.1,
+    0.001,
+    0.1,
+    0.001,
+    0.001,
+    0.001,
+    0.01,
+    0.01,
+    0.01,
+    0.1,
+    0.001,
+    1.0,
+    0.001,
+    0.01,
+    0.01
+   ]
+  }
+ }
+}

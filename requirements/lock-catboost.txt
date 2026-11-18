@@ -1,0 +1,6 @@
+# CatBoost analyses: the core environment plus CatBoost 1.2.8 (the version of the main CatBoost runs)
+-r lock-core.txt
+catboost==1.2.8
+graphviz==0.21
+narwhals==2.27.1
+plotly==7.1.0

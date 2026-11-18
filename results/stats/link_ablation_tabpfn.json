@@ -1,0 +1,608 @@
+{
+ "per_ordering": [
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CIP",
+   "variant": "oracle",
+   "AUROC": 0.8849499654934437,
+   "dAUROC": 0.031723288788506214,
+   "p": 0.0057373046875
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CIP",
+   "variant": "permuted",
+   "AUROC": 0.8329254030993163,
+   "dAUROC": -0.020301273605621388,
+   "p": 0.065673828125
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CIP",
+   "variant": "proba",
+   "AUROC": 0.839414172783738,
+   "dAUROC": -0.01381250392119954,
+   "p": 0.16845703125
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CIP",
+   "variant": "realized",
+   "AUROC": 0.8380052073530334,
+   "dAUROC": -0.015221469351904108,
+   "p": 0.0740966796875
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CTX",
+   "variant": "oracle",
+   "AUROC": 0.8728430311518547,
+   "dAUROC": 0.21003400602665312,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CTX",
+   "variant": "permuted",
+   "AUROC": 0.6643704057380527,
+   "dAUROC": 0.0015613806128512116,
+   "p": 0.84228515625
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CTX",
+   "variant": "proba",
+   "AUROC": 0.7039493145743146,
+   "dAUROC": 0.041140289449112986,
+   "p": 0.0003662109375
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CTX",
+   "variant": "realized",
+   "AUROC": 0.6986654358713182,
+   "dAUROC": 0.03585641074611665,
+   "p": 0.0010986328125
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CIP",
+   "variant": "oracle",
+   "AUROC": 0.8904178430265387,
+   "dAUROC": 0.037191166321601125,
+   "p": 0.0001220703125
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CIP",
+   "variant": "permuted",
+   "AUROC": 0.8347832674571805,
+   "dAUROC": -0.018443409247757024,
+   "p": 0.02813720703125
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CIP",
+   "variant": "proba",
+   "AUROC": 0.8405353221657571,
+   "dAUROC": -0.012691354539180593,
+   "p": 0.126220703125
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CIP",
+   "variant": "realized",
+   "AUROC": 0.8389411192672064,
+   "dAUROC": -0.01428555743773133,
+   "p": 0.0350341796875
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CTX",
+   "variant": "oracle",
+   "AUROC": 0.8695409982174688,
+   "dAUROC": 0.20673197309226718,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CTX",
+   "variant": "permuted",
+   "AUROC": 0.6754557550292845,
+   "dAUROC": 0.012646729904082872,
+   "p": 0.19464111328125
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CTX",
+   "variant": "proba",
+   "AUROC": 0.6976630803836685,
+   "dAUROC": 0.034854055258467034,
+   "p": 0.00054931640625
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CTX",
+   "variant": "realized",
+   "AUROC": 0.696287984890926,
+   "dAUROC": 0.033478959765724486,
+   "p": 0.0013427734375
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CAZ",
+   "variant": "oracle",
+   "AUROC": 0.7976226309921962,
+   "dAUROC": 0.07493234060625367,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CAZ",
+   "variant": "permuted",
+   "AUROC": 0.719018198226894,
+   "dAUROC": -0.0036720921590486454,
+   "p": 0.66943359375
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CAZ",
+   "variant": "proba",
+   "AUROC": 0.7437556670382758,
+   "dAUROC": 0.02106537665233319,
+   "p": 0.0318603515625
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CAZ",
+   "variant": "realized",
+   "AUROC": 0.7512733450124752,
+   "dAUROC": 0.028583054626532916,
+   "p": 0.022705078125
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CTX",
+   "variant": "oracle",
+   "AUROC": 0.7497233893557422,
+   "dAUROC": 0.08691436423054068,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CTX",
+   "variant": "permuted",
+   "AUROC": 0.6860940285204989,
+   "dAUROC": 0.023285003395297526,
+   "p": 0.01708984375
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CTX",
+   "variant": "proba",
+   "AUROC": 0.6998545327221798,
+   "dAUROC": 0.03704550759697821,
+   "p": 0.00042724609375
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CTX",
+   "variant": "realized",
+   "AUROC": 0.7175777204821323,
+   "dAUROC": 0.05476869535693065,
+   "p": 0.00042724609375
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CAZ",
+   "variant": "oracle",
+   "AUROC": 0.8043111695068217,
+   "dAUROC": 0.08162087912087915,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CAZ",
+   "variant": "permuted",
+   "AUROC": 0.7288925041142433,
+   "dAUROC": 0.006202213728300698,
+   "p": 0.56842041015625
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CAZ",
+   "variant": "proba",
+   "AUROC": 0.7487964644051601,
+   "dAUROC": 0.026106174019217502,
+   "p": 0.009033203125
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CAZ",
+   "variant": "realized",
+   "AUROC": 0.7620010617401923,
+   "dAUROC": 0.039310771354249624,
+   "p": 0.001953125
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CTX",
+   "variant": "oracle",
+   "AUROC": 0.7522342649180884,
+   "dAUROC": 0.0894252397928869,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CTX",
+   "variant": "permuted",
+   "AUROC": 0.6798251740089977,
+   "dAUROC": 0.01701614888379593,
+   "p": 0.0047607421875
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CTX",
+   "variant": "proba",
+   "AUROC": 0.695646485867074,
+   "dAUROC": 0.03283746074187251,
+   "p": 0.00030517578125
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CTX",
+   "variant": "realized",
+   "AUROC": 0.7141791868262458,
+   "dAUROC": 0.05137016170104407,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CAZ",
+   "variant": "oracle",
+   "AUROC": 0.9027320433189998,
+   "dAUROC": 0.1800417529330573,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CAZ",
+   "variant": "permuted",
+   "AUROC": 0.7184354355789139,
+   "dAUROC": -0.0042548548070287405,
+   "p": 0.61566162109375
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CAZ",
+   "variant": "proba",
+   "AUROC": 0.7479530179964963,
+   "dAUROC": 0.025262727610553717,
+   "p": 0.01226806640625
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CAZ",
+   "variant": "realized",
+   "AUROC": 0.7307061368583108,
+   "dAUROC": 0.008015846472368238,
+   "p": 0.44805908203125
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CIP",
+   "variant": "oracle",
+   "AUROC": 0.8761997302214692,
+   "dAUROC": 0.022973053516531783,
+   "p": 0.001708984375
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CIP",
+   "variant": "permuted",
+   "AUROC": 0.8340180688876341,
+   "dAUROC": -0.019208607817303453,
+   "p": 0.01470947265625
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CIP",
+   "variant": "proba",
+   "AUROC": 0.8378903946295251,
+   "dAUROC": -0.015336282075412495,
+   "p": 0.08203125
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CIP",
+   "variant": "realized",
+   "AUROC": 0.8324755317146622,
+   "dAUROC": -0.02075114499027541,
+   "p": 0.00830078125
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CAZ",
+   "variant": "oracle",
+   "AUROC": 0.9092049158570897,
+   "dAUROC": 0.1865146254711472,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CAZ",
+   "variant": "permuted",
+   "AUROC": 0.7275698943568508,
+   "dAUROC": 0.00487960397090832,
+   "p": 0.5867919921875
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CAZ",
+   "variant": "proba",
+   "AUROC": 0.7575372670807453,
+   "dAUROC": 0.03484697669480278,
+   "p": 0.0008544921875
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CAZ",
+   "variant": "realized",
+   "AUROC": 0.7330286669851886,
+   "dAUROC": 0.010338376599246161,
+   "p": 0.3707275390625
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CIP",
+   "variant": "oracle",
+   "AUROC": 0.8752874239287283,
+   "dAUROC": 0.022060747223790738,
+   "p": 0.01953125
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CIP",
+   "variant": "permuted",
+   "AUROC": 0.8365317303469478,
+   "dAUROC": -0.016694946357989827,
+   "p": 0.0799560546875
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CIP",
+   "variant": "proba",
+   "AUROC": 0.8406774264382961,
+   "dAUROC": -0.012549250266641538,
+   "p": 0.195556640625
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CIP",
+   "variant": "realized",
+   "AUROC": 0.8375974025974027,
+   "dAUROC": -0.015629274107534948,
+   "p": 0.05859375
+  }
+ ],
+ "ensemble": [
+  {
+   "variant": "realized",
+   "drug": "CIP",
+   "AUROC": 0.8481005709266577,
+   "dAUROC": -0.005126105778279677,
+   "ci": [
+    -0.015926872554558838,
+    0.002153032682531908
+   ],
+   "p": 0.29736328125
+  },
+  {
+   "variant": "realized",
+   "drug": "CTX",
+   "AUROC": 0.6961826245649775,
+   "dAUROC": 0.03337359943977591,
+   "ci": [
+    0.023428853647259707,
+    0.04338185593613292
+   ],
+   "p": 0.0001220703125
+  },
+  {
+   "variant": "realized",
+   "drug": "CAZ",
+   "AUROC": 0.7418643626904495,
+   "dAUROC": 0.019174072304507104,
+   "ci": [
+    0.0026745847135026223,
+    0.03490325891794439
+   ],
+   "p": 0.04144287109375
+  },
+  {
+   "variant": "oracle",
+   "drug": "CIP",
+   "AUROC": 0.8821881862099253,
+   "dAUROC": 0.0289615095049878,
+   "ci": [
+    0.019636486246147136,
+    0.0400740741894825
+   ],
+   "p": 0.0001220703125
+  },
+  {
+   "variant": "oracle",
+   "drug": "CTX",
+   "AUROC": 0.7762594431712079,
+   "dAUROC": 0.1134504180460063,
+   "ci": [
+    0.10414640710318054,
+    0.12466236118963984
+   ],
+   "p": 6.103515625e-05
+  },
+  {
+   "variant": "oracle",
+   "drug": "CAZ",
+   "AUROC": 0.8248292456335934,
+   "dAUROC": 0.10213895524765089,
+   "ci": [
+    0.08785275067268171,
+    0.11884951183167326
+   ],
+   "p": 6.103515625e-05
+  },
+  {
+   "variant": "permuted",
+   "drug": "CIP",
+   "AUROC": 0.8531948365644019,
+   "dAUROC": -3.184014053577341e-05,
+   "ci": [
+    -0.00869664113266201,
+    0.009034126017213862
+   ],
+   "p": 0.9951171875
+  },
+  {
+   "variant": "permuted",
+   "drug": "CTX",
+   "AUROC": 0.6867683133859607,
+   "dAUROC": 0.023959288260758868,
+   "ci": [
+    0.015358827519919323,
+    0.032223123810195854
+   ],
+   "p": 0.0003662109375
+  },
+  {
+   "variant": "permuted",
+   "drug": "CAZ",
+   "AUROC": 0.7439080532993576,
+   "dAUROC": 0.02121776291341509,
+   "ci": [
+    0.009126130573043189,
+    0.03293666074353433
+   ],
+   "p": 0.00518798828125
+  },
+  {
+   "variant": "proba",
+   "drug": "CIP",
+   "AUROC": 0.850352123721689,
+   "dAUROC": -0.002874552983248605,
+   "ci": [
+    -0.012162462509270479,
+    0.005920556577519929
+   ],
+   "p": 0.55096435546875
+  },
+  {
+   "variant": "proba",
+   "drug": "CTX",
+   "AUROC": 0.6885288812494694,
+   "dAUROC": 0.025719856124267873,
+   "ci": [
+    0.017415841807787803,
+    0.03569218208439529
+   ],
+   "p": 0.0001220703125
+  },
+  {
+   "variant": "proba",
+   "drug": "CAZ",
+   "AUROC": 0.7488741041567127,
+   "dAUROC": 0.02618381377077032,
+   "ci": [
+    0.014434055175651843,
+    0.04021552244933195
+   ],
+   "p": 0.0015869140625
+  }
+ ],
+ "single_link_permutation": [
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CTX",
+   "permuted_upstream": "CAZ",
+   "drop": 0.02882512095747393,
+   "p": 0.00091552734375
+  },
+  {
+   "ordering": "CAZ->CIP->CTX",
+   "downstream": "CTX",
+   "permuted_upstream": "CIP",
+   "drop": 0.0,
+   "p": 1.0
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CIP",
+   "permuted_upstream": "CAZ",
+   "drop": 0.01426246941464333,
+   "p": 0.015380859375
+  },
+  {
+   "ordering": "CAZ->CTX->CIP",
+   "downstream": "CIP",
+   "permuted_upstream": "CTX",
+   "drop": -7.401486830834377e-18,
+   "p": 1.0
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CTX",
+   "permuted_upstream": "CAZ",
+   "drop": 7.401486830834377e-18,
+   "p": 1.0
+  },
+  {
+   "ordering": "CIP->CAZ->CTX",
+   "downstream": "CTX",
+   "permuted_upstream": "CIP",
+   "drop": 0.03248806340718106,
+   "p": 0.00079345703125
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CAZ",
+   "permuted_upstream": "CIP",
+   "drop": 0.04127700801613843,
+   "p": 6.103515625e-05
+  },
+  {
+   "ordering": "CIP->CTX->CAZ",
+   "downstream": "CAZ",
+   "permuted_upstream": "CTX",
+   "drop": 7.401486830834377e-18,
+   "p": 1.0
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CIP",
+   "permuted_upstream": "CAZ",
+   "drop": 0.0,
+   "p": 1.0
+  },
+  {
+   "ordering": "CTX->CAZ->CIP",
+   "downstream": "CIP",
+   "permuted_upstream": "CTX",
+   "drop": 0.004147860593512783,
+   "p": 0.5069580078125
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CAZ",
+   "permuted_upstream": "CIP",
+   "drop": 7.401486830834377e-18,
+   "p": 1.0
+  },
+  {
+   "ordering": "CTX->CIP->CAZ",
+   "downstream": "CAZ",
+   "permuted_upstream": "CTX",
+   "drop": -0.0033182088442958407,
+   "p": 0.646484375
+  }
+ ]
+}

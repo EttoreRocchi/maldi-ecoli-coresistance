@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# data (download as described in data/README.md)
+data/*
+!data/README.md
+
+# generated outputs: only the statistics behind the paper's numbers are versioned
+results/*
+!results/stats/
+results/stats/*
+!results/stats/*.json
+!results/cross_dataset/
+results/cross_dataset/*
+!results/cross_dataset/logistic/
+results/cross_dataset/logistic/*
+!results/cross_dataset/logistic/cross_dataset_results.json
+figures/
+tables/
+logs/

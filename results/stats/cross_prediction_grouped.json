@@ -1,0 +1,632 @@
+[
+ {
+  "site": "Sant'Orsola",
+  "learner": "logistic regression (full grid)",
+  "tag": "s_orsola_logistic_full",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.8542973210364515,
+   "CTX": 0.7217626576322227,
+   "CAZ": 0.7658479201957462
+  },
+  "stacked": 0.8454627015496583,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": -0.08844940084070521,
+   "ci": [
+    -0.11729136884592123,
+    -0.05849969408273851
+   ],
+   "p": 0.00030517578125
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.07961478135391177,
+   "ci": [
+    0.05732785886238418,
+    0.1013562394876462
+   ],
+   "p": 0.0001220703125
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "logistic regression (full grid)",
+  "tag": "s_orsola_logistic_full",
+  "label": "CTX",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7617747856718445,
+   "CTX": 0.6602749129955011,
+   "CAZ": 0.7178543841779136
+  },
+  "stacked": 0.760967235379,
+  "proxy": "CIP",
+  "proxy_minus_own": {
+   "delta": 0.10149987267634326,
+   "ci": [
+    0.06029513694910599,
+    0.14787166815225491
+   ],
+   "p": 0.000732421875
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.000807550292844413,
+   "ci": [
+    -0.015599927468152378,
+    0.010946708698195399
+   ],
+   "p": 0.91162109375
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "logistic regression (full grid)",
+  "tag": "s_orsola_logistic_full",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7974117163030208,
+   "CTX": 0.7157717258586824,
+   "CAZ": 0.7501145883102406
+  },
+  "stacked": 0.7998368901629772,
+  "proxy": "CIP",
+  "proxy_minus_own": {
+   "delta": 0.04729712799278018,
+   "ci": [
+    0.01615036670618966,
+    0.0867809508273621
+   ],
+   "p": 0.0186767578125
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.002425173859956464,
+   "ci": [
+    -0.012011112087294239,
+    0.013394801188677774
+   ],
+   "p": 0.73681640625
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "CatBoost",
+  "tag": "s_orsola_catboost",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.8361953384779471,
+   "CTX": 0.7421169772256728,
+   "CAZ": 0.7584007779659953
+  },
+  "stacked": 0.8301314386096995,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": -0.07779456051195183,
+   "ci": [
+    -0.10242426070723223,
+    -0.05126255708880498
+   ],
+   "p": 0.000244140625
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.0717306606437041,
+   "ci": [
+    0.050510672147368374,
+    0.09287405906435564
+   ],
+   "p": 6.103515625e-05
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "CatBoost",
+  "tag": "s_orsola_catboost",
+  "label": "CTX",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7606872294372294,
+   "CTX": 0.7099593625328919,
+   "CAZ": 0.7208025634496221
+  },
+  "stacked": 0.7484153509888805,
+  "proxy": "CIP",
+  "proxy_minus_own": {
+   "delta": 0.05072786690433749,
+   "ci": [
+    0.025770449569539236,
+    0.08742232833785679
+   ],
+   "p": 0.0015869140625
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.012271878448349035,
+   "ci": [
+    -0.03501739404118234,
+    0.0016767541141399557
+   ],
+   "p": 0.2325439453125
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "CatBoost",
+  "tag": "s_orsola_catboost",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7950172798216278,
+   "CTX": 0.7374775441949357,
+   "CAZ": 0.7427875723310505
+  },
+  "stacked": 0.782073552051813,
+  "proxy": "CIP",
+  "proxy_minus_own": {
+   "delta": 0.052229707490577065,
+   "ci": [
+    0.02975338822061928,
+    0.07894980676746373
+   ],
+   "p": 0.00067138671875
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.012943727769814731,
+   "ci": [
+    -0.032245913871563364,
+    -0.0001245421245421172
+   ],
+   "p": 0.14599609375
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "TabPFN",
+  "tag": "s_orsola_tabpfn",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.8546400338791642,
+   "CTX": 0.7273887947800992,
+   "CAZ": 0.7502975406236276
+  },
+  "stacked": 0.8367400715226803,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": -0.10434249325553674,
+   "ci": [
+    -0.13372581861346058,
+    -0.08502954894538611
+   ],
+   "p": 6.103515625e-05
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.08644253089905263,
+   "ci": [
+    0.06872406462804297,
+    0.1075108897674894
+   ],
+   "p": 6.103515625e-05
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "TabPFN",
+  "tag": "s_orsola_tabpfn",
+  "label": "CTX",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7463575884899415,
+   "CTX": 0.6627305619217385,
+   "CAZ": 0.6938339805619217
+  },
+  "stacked": 0.7318973346914522,
+  "proxy": "CIP",
+  "proxy_minus_own": {
+   "delta": 0.08362702656820306,
+   "ci": [
+    0.04691168619490234,
+    0.12097206817376407
+   ],
+   "p": 0.00103759765625
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.014460253798489097,
+   "ci": [
+    -0.03849068461053856,
+    0.004358181078105599
+   ],
+   "p": 0.22760009765625
+  }
+ },
+ {
+  "site": "Sant'Orsola",
+  "learner": "TabPFN",
+  "tag": "s_orsola_tabpfn",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7769953017996496,
+   "CTX": 0.6993002070393376,
+   "CAZ": 0.7231877687529861
+  },
+  "stacked": 0.7700066889632108,
+  "proxy": "CIP",
+  "proxy_minus_own": {
+   "delta": 0.0538075330466635,
+   "ci": [
+    0.024953196740822282,
+    0.08952781151712698
+   ],
+   "p": 0.0052490234375
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.006988612836438894,
+   "ci": [
+    -0.023862652790377952,
+    0.007525595633085091
+   ],
+   "p": 0.41583251953125
+  }
+ },
+ {
+  "site": "DRIAMS-B",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_b_logistic",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.8269657597480177,
+   "CRO": 0.7942046812208102,
+   "CAZ": 0.7942046812208102
+  },
+  "stacked": 0.8321952047355273,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": -0.032761078527207554,
+   "ci": [
+    -0.06991744108033011,
+    -0.002245246816022202
+   ],
+   "p": 0.0875244140625
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.037990523514717066,
+   "ci": [
+    0.019679112337746305,
+    0.06226314487076306
+   ],
+   "p": 0.00244140625
+  }
+ },
+ {
+  "site": "DRIAMS-B",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_b_logistic",
+  "label": "CRO",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7932263814616757,
+   "CRO": 0.825899518056381,
+   "CAZ": 0.825899518056381
+  },
+  "stacked": 0.815897537466165,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.010001980590215878,
+   "ci": [
+    -0.06118964195988564,
+    0.016241464281965642
+   ],
+   "p": 0.66455078125
+  }
+ },
+ {
+  "site": "DRIAMS-B",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_b_logistic",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7932263814616757,
+   "CRO": 0.825899518056381,
+   "CAZ": 0.825899518056381
+  },
+  "stacked": 0.815897537466165,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p": 1.0
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.010001980590215878,
+   "ci": [
+    -0.06118964195988564,
+    0.016241464281965642
+   ],
+   "p": 0.66455078125
+  }
+ },
+ {
+  "site": "DRIAMS-C",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_c_logistic",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7664266688837422,
+   "CRO": 0.668059052488534,
+   "CAZ": 0.6479978873513931
+  },
+  "stacked": 0.7571678531290338,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": -0.09836761639520802,
+   "ci": [
+    -0.13618646809655438,
+    -0.0660781452995704
+   ],
+   "p": 0.00018310546875
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.0891088006404998,
+   "ci": [
+    0.06489174516840086,
+    0.11560101377754785
+   ],
+   "p": 0.0001220703125
+  }
+ },
+ {
+  "site": "DRIAMS-C",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_c_logistic",
+  "label": "CRO",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.6767514656839173,
+   "CRO": 0.7140733742717682,
+   "CAZ": 0.6960912589490768
+  },
+  "stacked": 0.7210485260886771,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": -0.017982115322691568,
+   "ci": [
+    -0.03040046765641298,
+    -0.0048267922925851825
+   ],
+   "p": 0.02197265625
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.024957267139600618,
+   "ci": [
+    0.014234522149488001,
+    0.03528650327125584
+   ],
+   "p": 0.00067138671875
+  }
+ },
+ {
+  "site": "DRIAMS-C",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_c_logistic",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.6500181505272918,
+   "CRO": 0.6955330320677848,
+   "CAZ": 0.6859109939222567
+  },
+  "stacked": 0.7025417070236942,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": 0.009622038145528044,
+   "ci": [
+    -0.0006613718894762499,
+    0.020183261038687682
+   ],
+   "p": 0.10699462890625
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.007008674955909429,
+   "ci": [
+    -0.0011799771898826428,
+    0.019172152604233817
+   ],
+   "p": 0.215576171875
+  }
+ },
+ {
+  "site": "DRIAMS-D",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_d_logistic",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.6521534993355327,
+   "CRO": 0.6576006881918632,
+   "CAZ": 0.6524702571175934
+  },
+  "stacked": 0.6675042896475548,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": 0.005447188856330546,
+   "ci": [
+    -0.012133496295623864,
+    0.024979562401558672
+   ],
+   "p": 0.57940673828125
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.009903601455691595,
+   "ci": [
+    -0.007580479572229343,
+    0.0238574733268202
+   ],
+   "p": 0.26995849609375
+  }
+ },
+ {
+  "site": "DRIAMS-D",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_d_logistic",
+  "label": "CRO",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.6713503173503174,
+   "CRO": 0.7266015620830436,
+   "CAZ": 0.7298951487099635
+  },
+  "stacked": 0.727158748492082,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": 0.0032935866269199567,
+   "ci": [
+    -0.013193496886202697,
+    0.023983222917114185
+   ],
+   "p": 0.79144287109375
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.0027364002178816922,
+   "ci": [
+    -0.02344732197133577,
+    0.013585027725300144
+   ],
+   "p": 0.7791748046875
+  }
+ },
+ {
+  "site": "DRIAMS-D",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_d_logistic",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.6681073247157564,
+   "CRO": 0.7259896106010227,
+   "CAZ": 0.726736711546964
+  },
+  "stacked": 0.7227177866741219,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": -0.0007471009459410297,
+   "ci": [
+    -0.016781042969218358,
+    0.013888374880107262
+   ],
+   "p": 0.94146728515625
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.0032718239269009593,
+   "ci": [
+    -0.021428159714100902,
+    0.010033763616898455
+   ],
+   "p": 0.6895751953125
+  }
+ },
+ {
+  "site": "DRIAMS-A",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_a_grouped_logistic",
+  "label": "CIP",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7897058704325343,
+   "CRO": 0.7645212106968649,
+   "CAZ": 0.7442451743459927
+  },
+  "stacked": 0.7882511130716524,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": -0.02518465973566934,
+   "ci": [
+    -0.03575452282504054,
+    -0.015759363885483674
+   ],
+   "p": 0.0006103515625
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.023729902374787597,
+   "ci": [
+    0.017468830377126363,
+    0.030037608359211085
+   ],
+   "p": 0.0001220703125
+  }
+ },
+ {
+  "site": "DRIAMS-A",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_a_grouped_logistic",
+  "label": "CRO",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7921907666334609,
+   "CRO": 0.8489704785001775,
+   "CAZ": 0.8192648772228511
+  },
+  "stacked": 0.8414212517534791,
+  "proxy": "CAZ",
+  "proxy_minus_own": {
+   "delta": -0.029705601277326472,
+   "ci": [
+    -0.0353910676048668,
+    -0.023884858958352143
+   ],
+   "p": 6.103515625e-05
+  },
+  "stacked_minus_proxy": {
+   "delta": 0.022156374530628145,
+   "ci": [
+    0.018813917122752235,
+    0.026713466526662455
+   ],
+   "p": 6.103515625e-05
+  }
+ },
+ {
+  "site": "DRIAMS-A",
+  "learner": "logistic regression (liblinear grid)",
+  "tag": "driams_a_grouped_logistic",
+  "label": "CAZ",
+  "n_folds": 15,
+  "auroc_by_classifier": {
+   "CIP": 0.7650104066013045,
+   "CRO": 0.8111525739942729,
+   "CAZ": 0.7991072620809745
+  },
+  "stacked": 0.8081746751300329,
+  "proxy": "CRO",
+  "proxy_minus_own": {
+   "delta": 0.012045311913298436,
+   "ci": [
+    0.004690371548493571,
+    0.02165832396153654
+   ],
+   "p": 0.01336669921875
+  },
+  "stacked_minus_proxy": {
+   "delta": -0.0029778988642399215,
+   "ci": [
+    -0.010701195151662598,
+    0.0035258076008064755
+   ],
+   "p": 0.4447021484375
+  }
+ }
+]

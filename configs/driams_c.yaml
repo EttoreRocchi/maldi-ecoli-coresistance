@@ -1,0 +1,23 @@
+_base: base.yaml
+dataset_name: driams_c
+binned_dir: ${DRIAMS_ROOT}/DRIAMS-C/binned_6000/2018
+metadata_path: ${DRIAMS_ROOT}/DRIAMS-C/id/2018/2018_clean.csv
+output_dir: results/driams_c
+
+driams_years:
+  - "2018"
+
+# CRO (Ceftriaxone) and CTX (Cefotaxime) share identical EUCAST breakpoints
+# for E. coli and are both hydrolyzed by CTX-M ESBLs, making them
+# interchangeable markers of ESBL-mediated resistance.
+targets:
+  - Ciprofloxacin
+  - Ceftriaxone
+  - Ceftazidime
+
+target_short_names:
+  Ciprofloxacin: CIP
+  Ceftriaxone: CRO
+  Ceftazidime: CAZ
+
+species: Escherichia coli
